@@ -1,5 +1,6 @@
 [build]
-  command = "npm run build"
+  # 빌드할 때 Netlify 환경 변수에 저장된 MY_SUPABASE_URL 등을 Vite가 인식하는 VITE_ 변수로 주입합니다.
+  command = "VITE_SUPABASE_URL=$MY_SUPABASE_URL VITE_SUPABASE_ANON_KEY=$MY_SUPABASE_ANON_KEY npm run build"
   publish = "dist"
 
 [[redirects]]
