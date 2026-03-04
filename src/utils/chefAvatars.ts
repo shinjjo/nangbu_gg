@@ -36,6 +36,12 @@ const CHEF_AVATAR_MAP: Record<string, string> = {
     '타카다': '/images/avatars/takada.png',
     '한리광': '/images/avatars/han_rigwang.png',
     '장근석': '/images/avatars/jang_geunseok.png',
+    '정지선&박은영': '/images/avatars/team_jeong_jiseon_park_eunyoung.png',
+    '김풍&임태훈': '/images/avatars/team_kim_poong_im_taehoon.png',
+    '윤남노&권성준': '/images/avatars/team_yoon_namno_kwon_sungjun.png',
+    '김풍&손종원': '/images/avatars/team_kim_poong_son_jongwon.png',
+    '배경준': '/images/avatars/baek_kyoungjun.png',
+    '백경준': '/images/avatars/baek_kyoungjun.png',
 };
 
 /**

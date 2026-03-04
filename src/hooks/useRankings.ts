@@ -150,6 +150,7 @@ export const useRankings = (season: SeasonFilter) => {
                     recentMatches: s.recentMatches.slice(0, 5),
                 };
             })
+            .filter((chef) => chef.seasonMatches > 0)
             .sort((a, b) => {
                 if (b.seasonWins !== a.seasonWins) return b.seasonWins - a.seasonWins;
                 return b.seasonWinRate - a.seasonWinRate;

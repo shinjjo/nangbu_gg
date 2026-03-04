@@ -4,6 +4,7 @@ export interface Chef {
 	english_name?: string;
 	image_url?: string;
 	bio?: string;
+	type?: 'individual' | 'team';
 	created_at?: string;
 }
 
