@@ -28,9 +28,14 @@ const CHEF_AVATAR_MAP: Record<string, string> = {
     '조셉': '/images/avatars/joseph.png',
     '조셉 리저우드': '/images/avatars/joseph.png',
     '정창욱': '/images/avatars/takada.png',
-    '다카다 마코토': '/images/avatars/takada.png',
-    '배경준': '/images/avatars/baek_kyoungjun.png',
     '여경래': '/images/avatars/yeo_gyeongrae.png',
+    '다카다 유스케': '/images/avatars/takada.png',
+    '다카다': '/images/avatars/takada.png',
+    '다카다 마코토': '/images/avatars/takada.png',
+    '타카다 유스케': '/images/avatars/takada.png',
+    '타카다': '/images/avatars/takada.png',
+    '한리광': '/images/avatars/han_rigwang.png',
+    '장근석': '/images/avatars/jang_geunseok.png',
 };
 
 /**

@@ -69,7 +69,7 @@ export default function Home() {
       <div className="bg-white border-b border-slate-200">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center justify-between">
           <h2 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-1.5">
-            <Trophy className="w-4 h-4 text-amber-500" /> 셰프 랭킹
+            <Trophy className="w-4 h-4 text-amber-500" /> Ranking
           </h2>
           <SeasonToggle value={season} onChange={setSeason} />
         </div>
