@@ -1,22 +1,60 @@
-import { useState, useEffect } from 'react';
-import { Trophy, ChevronDown, Calendar, Utensils } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Trophy, ChevronDown, ChevronUp, Calendar, Utensils, Star, Percent, Swords } from 'lucide-react';
 import RivalryRow from '../components/home/RivalryRow';
 import ChefAvatarGrid from '../components/ChefAvatarGrid';
 import SeasonToggle from '../components/ranking/SeasonToggle';
 import VsFloatingButton from '../components/vs/VsFloatingButton';
-import { useRankings, SeasonFilter } from '../hooks/useRankings';
+import { useRankings, SeasonFilter, RankedChef } from '../hooks/useRankings';
 import { useHeadToHeadStats } from '../hooks/useHeadToHeadStats';
 import { Chef } from '../types';
 import { getChefAvatar } from '../utils/chefAvatars';
 
 
 
+type SortKey = 'winRate' | 'wins' | 'matches';
+type SortDir = 'asc' | 'desc';
+
+const SORT_OPTIONS: { key: SortKey; label: string; icon: React.ReactNode }[] = [
+  { key: 'wins', label: '별', icon: <Star className="w-3.5 h-3.5" /> },
+  { key: 'winRate', label: '승률', icon: <Percent className="w-3.5 h-3.5" /> },
+  { key: 'matches', label: '매치수', icon: <Swords className="w-3.5 h-3.5" /> },
+];
+
+const SORT_KEY_MAP: Record<SortKey, keyof RankedChef> = {
+  winRate: 'seasonWinRate',
+  wins: 'seasonWins',
+  matches: 'seasonMatches',
+};
+
 export default function Home() {
-  /* ─── Season & Rankings ─── */
   const [season, setSeason] = useState<SeasonFilter>('2');
   const { rankings: allRankings, isLoading: isRankingsLoading } = useRankings(season);
 
   const rankings = allRankings.filter(chef => chef.type === 'individual' || !chef.type);
+
+  /* ─── Sort State ─── */
+  const [sortKey, setSortKey] = useState<SortKey>('wins');
+  const [sortDir, setSortDir] = useState<SortDir>('desc');
+
+  const handleSortClick = (key: SortKey) => {
+    if (key === sortKey) {
+      setSortDir((prev) => (prev === 'desc' ? 'asc' : 'desc'));
+    } else {
+      setSortKey(key);
+      setSortDir('desc');
+    }
+  };
+
+  const sortedRankings = useMemo(() => {
+    const prop = SORT_KEY_MAP[sortKey];
+    const dir = sortDir === 'desc' ? -1 : 1;
+    return [...rankings].sort((a, b) => {
+      const va = a[prop] as number;
+      const vb = b[prop] as number;
+      if (va !== vb) return (va - vb) * dir;
+      return b.seasonWins - a.seasonWins;
+    });
+  }, [rankings, sortKey, sortDir]);
 
   /* ─── VS Simulator State ─── */
   const [vsOpen, setVsOpen] = useState(false);
@@ -79,16 +117,41 @@ export default function Home() {
 
       {/* ───────── Main Content ───────── */}
       <div className="flex-1 max-w-2xl mx-auto w-full px-4 py-5">
-        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center justify-between mb-3">
           <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">
             {season === 'all' ? '역대 전체' : `시즌 ${season}`} · {rankings.length}명
           </h3>
+
+          {/* ── Sort Controls ── */}
+          <div className="flex items-center gap-1">
+            {SORT_OPTIONS.map(({ key, label, icon }) => {
+              const isActive = sortKey === key;
+              return (
+                <button
+                  key={key}
+                  onClick={() => handleSortClick(key)}
+                  className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+                    isActive
+                      ? 'bg-slate-800 text-white shadow-sm'
+                      : 'bg-white text-slate-500 hover:bg-slate-100 border border-slate-200'
+                  }`}
+                >
+                  {icon}
+                  {label}
+                  {isActive && (
+                    sortDir === 'desc'
+                      ? <ChevronDown className="w-3 h-3 ml-0.5" />
+                      : <ChevronUp className="w-3 h-3 ml-0.5" />
+                  )}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        {/* ── Chef Avatar Grid ── */}
-        {rankings.length > 0 ? (
+        {sortedRankings.length > 0 ? (
           <div className="mb-6">
-            <ChefAvatarGrid chefs={rankings} />
+            <ChefAvatarGrid chefs={sortedRankings} />
           </div>
         ) : (
           <div className="text-center text-slate-400 text-sm py-8">

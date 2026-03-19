@@ -59,14 +59,6 @@ const Header = () => {
 									Home
 								</Link>
 								<Link
-									to="/rankings"
-									className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-colors
-                    ${location.pathname === '/rankings' ? 'bg-amber-50 text-amber-600' : 'text-slate-700 hover:bg-slate-50'}`}
-								>
-									<Trophy size={18} />
-									순위보기
-								</Link>
-								<Link
 									to="/teams"
 									className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-colors
                     ${location.pathname === '/teams' ? 'bg-amber-50 text-amber-600' : 'text-slate-700 hover:bg-slate-50'}`}

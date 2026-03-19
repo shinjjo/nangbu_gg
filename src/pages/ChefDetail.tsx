@@ -245,7 +245,7 @@ const ChefDetail = () => {
                                     const opponent = isChef1 ? m.chef_2 : m.chef_1;
                                     const myRecipe = m.recipes?.find(r => r.chef_id === id) || null;
                                     return (
-                                        <div key={m.id} className="grid grid-cols-[80px_100px_1fr_60px] md:grid-cols-[100px_120px_1fr_60px] items-center px-4 py-3 gap-3">
+                                        <div key={m.id} className="grid grid-cols-[72px_56px_1fr_52px] md:grid-cols-[100px_120px_1fr_60px] items-center px-4 py-3 gap-2 md:gap-3">
                                             {/* Column 1: Date & Guest */}
                                             <div className="flex flex-col min-w-0">
                                                 <span className="text-[10px] sm:text-xs font-medium text-slate-400">
@@ -261,14 +261,14 @@ const ChefDetail = () => {
                                             {/* Column 2: Opponent (Vs) */}
                                             <div className="flex flex-col min-w-0">
                                                 <span className="text-[10px] text-slate-400 font-medium">vs</span>
-                                                <span className="text-sm sm:text-base font-black text-slate-800 truncate">
+                                                <span className="text-xs sm:text-sm md:text-base font-black text-slate-800 line-clamp-2 leading-snug">
                                                     {opponent?.name || '상대'}
                                                 </span>
                                             </div>
 
                                             {/* Column 3: Recipe & Topic */}
                                             <div className="flex flex-col min-w-0 border-l border-slate-100 pl-3">
-                                                <span className="text-sm font-bold text-slate-700 truncate">
+                                                <span className="text-xs sm:text-sm font-bold text-slate-700 line-clamp-2 leading-snug">
                                                     {myRecipe?.name || '레시피 미등록'}
                                                 </span>
                                                 {m.topic && (
@@ -278,7 +278,7 @@ const ChefDetail = () => {
 
                                             {/* Column 4: Outcome */}
                                             <div className="flex justify-end flex-shrink-0">
-                                                <div className={`w-12 sm:w-14 text-center text-[11px] sm:text-xs font-bold py-1.5 rounded ${isWin ? 'bg-amber-100 text-amber-700' : 'bg-slate-100 text-slate-500'}`}>
+                                                <div className={`w-11 sm:w-14 text-center text-[10px] sm:text-xs font-bold py-1.5 rounded ${isWin ? 'bg-amber-100 text-amber-700' : 'bg-slate-100 text-slate-500'}`}>
                                                     {isWin ? '승리' : '패배'}
                                                 </div>
                                             </div>

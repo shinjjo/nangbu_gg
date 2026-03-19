@@ -2,7 +2,6 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
-import Rankings from './pages/Rankings';
 import TeamRankings from './pages/TeamRankings';
 import ChefList from './pages/ChefList';
 import ChefDetail from './pages/ChefDetail';
@@ -16,7 +15,6 @@ function App() {
 				<Layout>
 					<Routes>
 						<Route path="/" element={<Home />} />
-						<Route path="/rankings" element={<Rankings />} />
 						<Route path="/teams" element={<TeamRankings />} />
 						<Route path="/analysis" element={<ChefList />} /> {/* Using ChefList as temporary Analysis selection */}
 						<Route path="/chef/:id" element={<ChefDetail />} />

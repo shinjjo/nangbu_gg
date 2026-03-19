@@ -10,15 +10,9 @@ interface ChefAvatarGridProps {
 export default function ChefAvatarGrid({ chefs }: ChefAvatarGridProps) {
     const navigate = useNavigate();
 
-    // Sort by wins descending (primary), win rate descending (secondary)
-    const sorted = [...chefs].sort((a, b) => {
-        if (b.seasonWins !== a.seasonWins) return b.seasonWins - a.seasonWins;
-        return b.seasonWinRate - a.seasonWinRate;
-    });
-
     return (
         <div className="grid grid-cols-3 gap-3">
-            {sorted.map((chef, idx) => (
+            {chefs.map((chef, idx) => (
                 <button
                     key={chef.id}
                     onClick={() => navigate(`/chef/${chef.id}`)}
