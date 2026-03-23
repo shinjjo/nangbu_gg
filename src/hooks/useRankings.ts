@@ -11,6 +11,7 @@ export interface RecentMatch {
     recipeName: string | null;
     recipeId: string | null;
     opponentName: string;
+    opponentId: string;
     topic: string | null;
 }
 
@@ -118,6 +119,7 @@ export const useRankings = (season: SeasonFilter) => {
                     recipeName: chef1Recipe?.name || null,
                     recipeId: chef1Recipe?.id || null,
                     opponentName: m.chef_2?.name || '상대',
+                    opponentId: m.chef_2_id,
                     topic: m.topic,
                 });
             }
@@ -133,6 +135,7 @@ export const useRankings = (season: SeasonFilter) => {
                     recipeName: chef2Recipe?.name || null,
                     recipeId: chef2Recipe?.id || null,
                     opponentName: m.chef_1?.name || '상대',
+                    opponentId: m.chef_1_id,
                     topic: m.topic,
                 });
             }

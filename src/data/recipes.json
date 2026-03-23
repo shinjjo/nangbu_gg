@@ -1,0 +1,1578 @@
+[
+  {
+    "id": "0w78sKSucUE",
+    "guest": "카더가든",
+    "theme": "카더가든 스팸가득",
+    "chefs": [
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "햄섬초이",
+        "ingredients": "트러플 감자수프, 통조림 햄, 프랑크 소시지, 우유",
+        "steps": [
+          "햄과 소시지를 볶다가 트러플 감자수프와 우유를 더해 끓인다",
+          "햄 감자수프를 분자 단위(?)로 축소시킨다",
+          "햄, 양파, 대파에 튀김가루 반죽을 입힌다",
+          "햄 퓌레를 체에 걸러 다시 끓인다",
+          "햄 채소 반죽을 기름에 튀긴다",
+          "햄 퓌레에 우유를 더해 햄 수프 벨루테를 만든다",
+          "짜주머니에 달걀노른자를 넣는다",
+          "햄 수프 벨루테에 후추를 뿌린다",
+          "햄 수프 벨루테에 달걀노른자를 얹는다",
+          "햄 채소 튀김을 한 번 더 튀긴다"
+        ],
+        "images": [
+          "0w78sKSucUE_chef1_dish_highres_1.jpg",
+          "0w78sKSucUE_chef1_dish_highres_2.jpg",
+          "0w78sKSucUE_chef1_dish_highres_3.jpg",
+          "0w78sKSucUE_chef1_dish_highres_4.jpg"
+        ]
+      },
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "O팸메일",
+        "ingredients": "사과 시나몬 잼, 통조림 햄, 양배추",
+        "steps": [
+          "햄의 속을 말끔하게 파낸다",
+          "속을 파낸 햄을 에어 프라이어에 굽는다",
+          "전분과 물을 섞어 햄에 반죽을 입힌다",
+          "햄 반죽을 기름과 융합(?)시킨다",
+          "사과 시나몬 잼, 물, 전분, 설탕, 식초, 간장을 끓여 소스를 만든다",
+          "튀긴 햄 꿔바로우에 반죽을 한 번 더 입혀 튀긴다",
+          "양배추를 채 썬다",
+          "햄 그릇에 양배추를 깔고 햄 꿔바로우를 담는다",
+          "소스를 붓고 찍먹으로 담아낸다"
+        ],
+        "images": [
+          "0w78sKSucUE_chef2_dish_highres_1.jpg",
+          "0w78sKSucUE_chef2_dish_highres_2.jpg",
+          "0w78sKSucUE_chef2_dish_highres_3.jpg",
+          "0w78sKSucUE_chef2_dish_highres_4.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2IeLOMqo2Xs",
+    "guest": "이세돌",
+    "theme": "제로 슈거 대결",
+    "chefs": [
+      {
+        "chef_name": "권성준 셰프",
+        "dish_name": "나폴리 맛파고",
+        "ingredients": "청양고춧가루, 무, 비금도 소금, 우럭, 토마토소스, 깻잎, 까나리액젓, 다시마, 해물 육수, 홍합살, 손질 꽃게, 표고버섯",
+        "steps": [
+          "끓는 물에 바지락, 손질 꽃게, 해물 육수, 까나리액젓, 다진 마늘을 넣고 끓여 육수를 낸다.",
+          "압력솥에 물, 데친 우럭, 다진 마늘, 대파를 넣고 끓여 우럭탕을 만든다.",
+          "냄비에 데친 우럭, 표고버섯, 다시마를 넣고 끓인다.",
+          "우럭탕에 얇게 썬 무와 잘게 썬 대파, 청양고추를 더한다.",
+          "고추장, 된장, 손후추, 간장을 섞어 양념장을 만든 후, 청양고춧가루와 토마토소스를 듬뿍 넣는다.",
+          "밀가루에 전분을 넣고 끓는 물을 부어 가며 익반죽한 후, 밀대로 밀어 넓게 편 반죽을 썰어 칼국수 면을 만든다.",
+          "끓는 물에 칼국수 면을 삶는다.",
+          "매운탕 육수에 삶은 칼국수 면, 홍합살, 꽃게살, 우럭살을 넣고 끓인다.",
+          "비금도 소금, 청양고춧가루, 간장을 넣어 간을 맞춘다.",
+          "그릇에 깻잎을 올린 후 면과 해산물을 먼저 담고, 국물을 부어 완성한다."
+        ],
+        "images": [
+          "2IeLOMqo2Xs_chef1_shot_7_highres.jpg",
+          "2IeLOMqo2Xs_chef1_shot_4_highres.jpg",
+          "2IeLOMqo2Xs_chef1_shot_5_highres.jpg",
+          "2IeLOMqo2Xs_chef1_shot_6_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "풍의 한 수",
+        "ingredients": "페페론치노, 무, 낙지 먹물, 감자, 손질 꽃게, 두부, 닭 육수",
+        "steps": [
+          "두부에 바둑판 모양으로 칼집을 낸다.",
+          "칼집 낸 두부에 간장을 입힌다.",
+          "바둑판 모양의 두부를 팬에 굽기 시작한다.",
+          "감자를 적당한 크기로 썬 후 전자레인지에 돌려 익힌다.",
+          "익힌 감자를 으깬 후 얼음물과 밀가루를 넣어 감자떡 반죽을 만든다.",
+          "감자떡 반죽을 흰 바둑알 모양으로 만든다.",
+          "남은 감자떡 반죽에 낙지 먹물을 듬뿍 넣어 검은 바둑알 모양으로 만든다.",
+          "끓는 물에 바지락, 무, 손질 꽃게, 닭 육수, 페페론치노를 넣고 끓여 육수를 낸다.",
+          "두부 바둑판 위에 감자떡으로 만든 흰 바둑알과 검은 바둑알을 이세돌의 78수 기보에 맞춰 올린다.",
+          "육수만 걸러낸 후 전분물을 넣어 두부 위로 듬뿍 붓는다.",
+          "청양고추를 잡히는 대로 썰어 넣는다."
+        ],
+        "images": [
+          "2IeLOMqo2Xs_chef2_shot_9_highres.jpg",
+          "2IeLOMqo2Xs_chef2_shot_4_highres.jpg",
+          "2IeLOMqo2Xs_chef2_shot_5_highres.jpg",
+          "2IeLOMqo2Xs_chef2_shot_8_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3T2s3f2Zk6Q",
+    "guest": "조세호",
+    "theme": "대게 맛있으세호?",
+    "chefs": [
+      {
+        "chef_name": "임태훈 셰프",
+        "dish_name": "대게 시키신 분",
+        "ingredients": "페페론치노, 새우, 양송이버섯, 대게, 당근",
+        "steps": [
+          "양파, 대파, 고춧가루를 기름에 끓여 고추기름을 낸다.",
+          "대게 내장, 게살과 다진 새우를 섞고 소금, 후추, 전분으로 반죽을 만든다.",
+          "양송이 뚜껑을 따고, 버섯에 게살과 새우 반죽을 채운다.",
+          "채운 대게 버섯에 전분을 입힌다.",
+          "간장, 식초, 물, 설탕을 끓여 간장소스를 만든다.",
+          "페페론치노와 다진 채소(양파, 대파, 당근)들을 센 불에 볶는다.",
+          "볶은 채소에 간장소스를 넣고 끓여 깐풍소스를 만든다.",
+          "깐풍소스에 튀긴 대게 버섯을 넣고 볶은 후 참기름을 추가하여 마무리한다."
+        ],
+        "images": [
+          "3T2s3f2Zk6Q_chef1_shot_7_highres.jpg",
+          "3T2s3f2Zk6Q_chef1_shot_3_highres.jpg",
+          "3T2s3f2Zk6Q_chef1_shot_4_highres.jpg",
+          "3T2s3f2Zk6Q_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "박은영 셰프",
+        "dish_name": "게 섰거라",
+        "ingredients": "레몬즙, 식빵, 생크림, 대게, 고수",
+        "steps": [
+          "달걀흰자와 생크림을 섞어 부용을 만든다.",
+          "기름 두른 팬에 게살과 대파를 함께 볶는다.",
+          "게딱지에 대게 내장을 깔고, 그 위에 볶은 게살과 부용을 채운다.",
+          "식빵의 테두리를 제거하고 갈아서 빵가루를 만든다.",
+          "게딱지에 채운 부용게살 위에 밀가루, 달걀물, 빵가루 순으로 덮는다.",
+          "끓는 기름을 조심스레 끼얹어가며 게딱지를 튀긴다.",
+          "고수를 한 움큼 썰어 레몬 드레싱에 버무려 고수 샐러드를 만든다.",
+          "튀긴 게딱지 주위로 고수 샐러드를 플레이팅한다."
+        ],
+        "images": [
+          "3T2s3f2Zk6Q_chef2_shot_10_highres.jpg",
+          "3T2s3f2Zk6Q_chef2_shot_4_highres.jpg",
+          "3T2s3f2Zk6Q_chef2_shot_6_highres.jpg",
+          "3T2s3f2Zk6Q_chef2_shot_2_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "AmKWn9YVjW8",
+    "guest": "미미",
+    "theme": "디저트 혈당 올랐어 난♬",
+    "chefs": [
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "퐁보라를 일으켜♬",
+        "ingredients": "비스킷 스프레드, 초콜릿, 블루베리, 크림빵, 배추김치",
+        "steps": [
+          "물과 버터를 끓이고 소금을 약간 넣는다.",
+          "끓는 물과 버터 혼합물에 설탕을 넉넉히 넣는다.",
+          "설탕이 녹은 혼합물에 밀가루를 넣고 익반죽한다.",
+          "반죽에 달걀을 넣고 핸드블렌더로 섞어 도넛 반죽을 완성한다.",
+          "완성된 도넛 반죽을 짤주머니에 담는다.",
+          "짤주머니에 담긴 반죽을 뜨거운 기름에 짜내어 튀긴다.",
+          "세 가지 종류의 크림을 만든다:",
+          "대파와 마늘을 기름에 끓여 파기름을 만든다.",
+          "배추김치를 길게 썰어 파기름과 설탕을 넣고 조물조물 버무린다."
+        ],
+        "images": [
+          "AmKWn9YVjW8_chef1_shot_5_highres.jpg",
+          "AmKWn9YVjW8_chef1_shot_2_highres.jpg",
+          "AmKWn9YVjW8_chef1_shot_3_highres.jpg",
+          "AmKWn9YVjW8_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "정호영 셰프",
+        "dish_name": "달달 댄스♬",
+        "ingredients": "크렘브륄레 스프레드, 샌드 초코 아이스크림, 샌드 캐러멜 아이스크림, 바닐라 아이스크림, 바나나, 요거트, 망고, 우유",
+        "steps": [
+          "우유를 냄비에 넣고 끓인다.",
+          "끓는 우유에 바닐라 아이스크림을 넣어 바닐라 크림을 만든다.",
+          "달걀 노른자와 설탕을 섞어 설탕 보호막을 만든다.",
+          "뜨거운 바닐라 크림을 달걀 노른자 혼합물에 부어가며 저어 커스터드를 만든다.",
+          "망고를 썰어 준비한다.",
+          "바나나를 썰어 설탕을 뿌린 후 토치로 캐러멜라이징하여 바나나 플람베를 만든다.",
+          "크렘브륄레 스프레드, 요거트, 설탕을 섞어 요거트 크림을 만든다.",
+          "설탕을 끓여 캐러멜을 만든 후 쟁반에 얇게 펴 식혀 부순다.",
+          "우유, 달걀, 밀가루를 섞어 크레페 반죽을 만든다.",
+          "크레페 반죽을 팬에 얇게 구워 크레페를 만든다.",
+          "디저트를 유리잔에 층층이 쌓는다:",
+          "크레페에 부순 캐러멜을 올려 돌돌 말아 캐러멜 크레페를 완성한다."
+        ],
+        "images": [
+          "AmKWn9YVjW8_chef2_shot_1_highres.jpg",
+          "AmKWn9YVjW8_chef2_shot_2_highres.jpg",
+          "AmKWn9YVjW8_chef2_shot_3_highres.jpg",
+          "AmKWn9YVjW8_chef2_shot_4_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CTeOOfSF_iw",
+    "guest": "김재중",
+    "theme": "아시아 베스트 스파이시",
+    "chefs": [
+      {
+        "chef_name": "장근석 셰프",
+        "dish_name": "맵찢남",
+        "ingredients": "칠리 갈릭 페이스트, 매운 고춧가루, 청양고추 분말, 카레 가루, 삼발 소스, 칠리 소스, 칠리 오일, 쑥갓, 레몬, 새우살, 바지락, 오징어, 핫소스",
+        "steps": [
+          "기름을 두른 냄비에 오징어, 바지락, 새우살, 맛술을 넣고 볶는다.",
+          "뜨거운 물을 넣고 해산물 육수를 만든다.",
+          "기름을 두른 팬에 칠리 오일과 다진 양파, 마늘을 넣고 볶는다.",
+          "버섯을 썰어 넣고 볶다가 칠리 갈릭 페이스트, 삼발 소스, 매운 고춧가루, 카레 가루, 칠리 소스, 핫소스를 넣고 볶아 파에야 소스를 만든다.",
+          "볶은 소스에 해산물 육수를 넣고 끓인다.",
+          "볶은 소스에 데우지 않은 즉석밥을 넣고 볶는다.",
+          "삶은 해산물을 넣고 볶아 파에야를 만든다.",
+          "파에야에 후추, 레몬즙, 쑥갓을 더한다."
+        ],
+        "images": [
+          "CTeOOfSF_iw_chef1_shot_1_highres.jpg",
+          "CTeOOfSF_iw_chef1_shot_2_highres.jpg",
+          "CTeOOfSF_iw_chef1_shot_10_highres.jpg",
+          "CTeOOfSF_iw_chef1_shot_4_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "마시마에서 제일 맵찜",
+        "ingredients": "부트 졸로키아 소스, 청양 액상 조미료, 청양고추 분말, 마라 가루, 멸치액젓, 조미료, 콩나물, 상추, 깻잎, 핫소스, 미나리, 오징어, 굴소스",
+        "steps": [
+          "무를 채 썰어 소금, 설탕에 절여 물기를 뺀다.",
+          "냄비에 콩나물, 물, 식초를 넣고 끓인다.",
+          "콩나물국에 멸치액젓, 다진 마늘, 조미료를 넣고 끓인다.",
+          "팬에 기름과 참기름을 두른다.",
+          "양념장에 청양고추 분말, 핫소스, 다진 마늘, 조미료, 멸치액젓, 맛술을 더한다.",
+          "양념장에 부트 졸로키아 소스, 청양 액상 조미료, 마라 가루, 굴소스를 더한다.",
+          "팬에 양념장을 넣고 볶는다.",
+          "절여둔 무채를 헹궈서 준비한다.",
+          "데쳐둔 오징어와 무채를 함께 볶는다.",
+          "볶은 오징어와 무채에 미나리를 추가한다.",
+          "볶은 오징어와 무채를 접시에 담고 마라 가루를 뿌린다.",
+          "콩나물국에 오징어를 넣고 끓인다."
+        ],
+        "images": [
+          "CTeOOfSF_iw_chef2_shot_10_highres.jpg",
+          "CTeOOfSF_iw_chef2_shot_1_highres.jpg",
+          "CTeOOfSF_iw_chef2_shot_3_highres.jpg",
+          "CTeOOfSF_iw_chef2_shot_2_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DqJV_euOJvM",
+    "guest": "추성훈",
+    "theme": "SEXY FOOD: 탄수화물",
+    "chefs": [
+      {
+        "chef_name": "안티모 셰프",
+        "dish_name": "나폴리 폴리치아",
+        "ingredients": "파르미지아노 레지아노 치즈, 가다랑어포, 유자후추, 잔멸치, 애호박, 레몬, 깻잎, 우유",
+        "steps": [
+          "올리브오일을 두른 팬에 대파, 으깬 마늘, 소금을 넣고 볶는다.",
+          "가다랑어포와 잔멸치에 끓인 물을 붓고 육수를 낸다.",
+          "밀가루에 뜨거운 물을 넣고 반죽한다.",
+          "반죽을 길게 늘여 적당한 크기로 썰어 파스타 면을 만든다.",
+          "볶은 애호박, 우유를 핸드블렌더에 넣고 갈아 애호박 소스를 만든다.",
+          "애호박 소스에 파스타, 유자후추, 버터, 레몬 제스트, 채 썬 깻잎을 넣는다.",
+          "튀긴 애호박과 김자반을 올려 마무리한다."
+        ],
+        "images": [
+          "DqJV_euOJvM_chef1_shot_2_highres.jpg",
+          "DqJV_euOJvM_chef1_shot_3_highres.jpg",
+          "DqJV_euOJvM_chef1_shot_5_highres.jpg",
+          "DqJV_euOJvM_chef1_shot_1_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "권성준 셰프",
+        "dish_name": "오사카 맛피아",
+        "ingredients": "이탈리안 허브 드레싱, 방울토마토, 식빵, 토마토소스, 레몬, 가다랑어포, 금태, 유자소금, 깻잎, 잔멸치",
+        "steps": [
+          "믹서에 식빵을 넣고 갈아 빵가루를 만든다.",
+          "빵가루에 잔멸치, 유자 소금을 넣고 볶는다.",
+          "팬에 올리브오일, 양파, 다진 마늘을 넣고 볶다가 토마토소스, 방울토마토, 후추, 육수를 넣고 끓인다.",
+          "밀가루와 달걀을 섞어 반죽한 뒤 얇게 밀어 파스타 면을 만든다.",
+          "가다랑어포 육수에 파스타 면을 삶는다.",
+          "금태를 구워 가시를 제거하고 살만 발라낸다.",
+          "토마토소스에 파스타 면을 넣고 볶은 후 소금, 깻잎을 추가한다.",
+          "파스타 위에 구운 금태를 올리고 빵가루와 잔멸치를 뿌린 후 레몬 제스트와 올리브오일로 마무리한다."
+        ],
+        "images": [
+          "DqJV_euOJvM_chef2_shot_1_highres.jpg",
+          "DqJV_euOJvM_chef2_shot_2_highres.jpg",
+          "DqJV_euOJvM_chef2_shot_4_highres.jpg",
+          "DqJV_euOJvM_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JDAlnj-3B5g",
+    "guest": "호시&우지",
+    "theme": "해피 세븐틴 데이",
+    "chefs": [
+      {
+        "chef_name": "권성준 셰프",
+        "dish_name": "마치 된 것 같아 세븐틴",
+        "ingredients": "구워 먹는 치즈, 탄산수, 트러플 발사믹, 매실액, 꽃게액젓, 양상추, 채끝등심, 유자폰즈, 상추, 열무김치, 참외, 오이",
+        "steps": [
+          "채끝등심을 망치로 두드려 편다. (고기를 얇게 펴고 먹기 좋은 크기로 자른다)",
+          "양념한 채끝등심에 유자폰즈를 바르고 구워 먹는 치즈를 말아 이쑤시개로 고정한 뒤, 튀김가루를 묻힌다.",
+          "튀김가루 묻힌 치즈 고기말이에 달걀, 전분, 튀김가루, 탄산수를 섞어 얼음 위에서 만든 튀김 반죽을 입혀 기름에 튀긴다. (얼음 위에서 반죽하면 글루텐 형성을 막아 튀김이 더 바삭해진다)",
+          "즉석밥과 잘게 썬 열무김치, 오이, 참외, 상추, 매실액, 꽃게액젓, 참기름, 유자폰즈를 비벼 열무비빔밥을 만든다.",
+          "열무비빔밥을 원형 틀에 담아 모양을 잡는다.",
+          "양상추, 대파, 트러플 발사믹, 매실액, 꽃게액젓, 유자폰즈, 후추를 섞어 유린기 샐러드를 만든 뒤, 열무비빔밥 위에 얹는다.",
+          "고기말이 튀김을 유린기 샐러드 위로 쌓아 올린다."
+        ],
+        "images": [
+          "JDAlnj-3B5g_chef1_shot_1_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_2_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_3_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_4_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_5_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_6_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_7_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_8_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_9_highres.jpg",
+          "JDAlnj-3B5g_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "윤남노 셰프",
+        "dish_name": "파이팅 대구찜",
+        "ingredients": "트러플오일, 레몬즙, 대구살, 양배추, 샴페인, 깻잎",
+        "steps": [
+          "양파를 샴페인에 조린다.",
+          "대구살을 소금과 트러플오일로 밑간한다.",
+          "꽃 모양 낸 양파에 소금, 튀김가루, 달걀을 입힌다.",
+          "튀김옷 입힌 양파를 낮은 온도의 기름에 튀긴다. (수분을 천천히 빼기 위해 저온에서 오래 튀긴다)",
+          "대구살과 깻잎을 랩으로 싸서 만다.",
+          "랩으로 싼 대구살을 찜기에 찐다. (랩에 구멍을 뚫어 습기가 차지 않도록 한다)",
+          "샴페인에 조린 양파와 버터를 섞어 뵈르블랑 소스를 만든 뒤, 체에 거른다. (뵈르블랑 소스는 원래 화이트 와인으로 만드는 프랑스 요리의 기본 소스이다)",
+          "찐 대구찜과 양파튀김을 접시에 담고, 뵈르블랑 소스와 채 썬 양배추를 얹는다."
+        ],
+        "images": [
+          "JDAlnj-3B5g_chef2_shot_1_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_2_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_3_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_4_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_5_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_6_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_7_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_8_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_9_highres.jpg",
+          "JDAlnj-3B5g_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Ju_fpShDgUY",
+    "guest": "선우용여",
+    "theme": "럭셔리 조식밖에 몰라 몰라~",
+    "chefs": [
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "럭셔리 초이스",
+        "ingredients": "다시마 식초, 오디청, 조미김, 갓김치, 호밀빵, 요거트, 고수, 낫토, 레몬, 버터, 연어, 비트",
+        "steps": [
+          "올리브오일에 레몬 껍질을 슬라이스하여 넣는다.",
+          "미리 재워둔 연어를 올리브오일과 레몬 껍질에 넣어 콩피한다.",
+          "연어를 석쇠에 올려 불로 그릴링하여 껍질을 바삭하게 굽는다.",
+          "비트를 썰어 끓는 물에 삶는다.",
+          "호밀빵을 석쇠에 올려 바삭하게 굽는다.",
+          "끓는 물에 식초를 넣고 국자 위에 달걀을 올려 조심스럽게 수란을 만든다.",
+          "삶은 비트와 물을 핸드블렌더에 넣고 갈아 비트 소스를 만든다.",
+          "비트 소스에 레몬즙과 요거트, 갓김치, 오디청을 넣고 끓인다.",
+          "낫토를 끓는 물에 데친다.",
+          "구운 호밀빵 위에 데친 낫토를 올리고, 그 위에 수란과 조미김을 올린다.",
+          "비트 소스를 접시에 깔고 그 위에 구운 연어 스테이크를 올린 뒤 고수를 곁들여 마무리한다."
+        ],
+        "images": [
+          "Ju_fpShDgUY_chef1_shot_1_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_2_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_3_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_4_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_5_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_6_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_7_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_8_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_9_highres.jpg",
+          "Ju_fpShDgUY_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "배경준 셰프",
+        "dish_name": "용 앤 리치",
+        "ingredients": "발사믹 식초, 토마토소스, 마늘장아찌, 냉면 육수, 콜리플라워, 파프리카, 고추냉이, 나박김치, 시오콘부, 들기름, 갓김치, 파슬리, 요거트, 고수, 당근, 오이, 레몬, 연어, 된장",
+        "steps": [
+          "콜리플라워를 적당한 크기로 썰어 끓는 물에 삶는다.",
+          "삶은 콜리플라워를 얼음물에 담가 식힌 뒤 물기를 제거한다.",
+          "끓는 물에 식초를 넣고 달걀을 조심스럽게 넣어 수란을 만든다.",
+          "참기름, 된장, 발사믹 식초를 섞어 된장 소스를 만든다.",
+          "된장 소스에 레몬즙을 살짝 넣고, 콜리플라워에 소스를 뿌린 뒤 오븐에 굽는다.",
+          "오이, 시오콘부, 요거트, 고추냉이, 생강즙, 레몬즙, 레몬 제스트를 섞어 지중해식 오이 샐러드를 만든다.",
+          "당근, 상추를 썰어 레몬즙, 소금, 발사믹 식초, 후추, 올리브오일을 섞어 당근 샐러드를 만든다.",
+          "핸드블렌더에 고수, 파슬리, 올리브오일, 발사믹 식초, 마늘장아찌를 넣고 갈아 소스를 만든다.",
+          "믹서에 오이, 파프리카, 토마토소스, 냉면 육수, 양파, 나박김치 국물, 갓김치 국물을 넣고 갈아 가스파초를 만든다.",
+          "구운 콜리플라워 위에 수란을 올리고, 고수, 파슬리, 올리브오일, 발사믹 식초, 마늘장아찌로 만든 소스를 뿌린다.",
+          "연어를 콩피하여 접시에 올리고 그 위에 오이 샐러드와 당근 샐러드를 곁들인다.",
+          "가스파초를 작은 그릇에 담아 들기름을 뿌려 마무리한다."
+        ],
+        "images": [
+          "Ju_fpShDgUY_chef2_shot_1_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_2_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_3_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_4_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_5_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_6_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_7_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_8_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_9_highres.jpg",
+          "Ju_fpShDgUY_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "KzsuZJZELlU",
+    "guest": "추성훈",
+    "theme": "SEXY FOOD: 단백질",
+    "chefs": [
+      {
+        "chef_name": "다카다 셰프",
+        "dish_name": "다카다키마스!",
+        "ingredients": "아사이베리 스무디, 스테이크용 안심, 스키야키용 고기, 트리플 베리, 흑임자 가루, 방울토마토, 베이비케일, 레몬 식초, 깻잎, 시소, 고수, 누룩소금, 사골육수, 휘핑크림, 아보카도, 소면, 플레인 요거트",
+        "steps": [
+          "사골육수를 냄비에 붓고 끓인다.",
+          "소고기 안심을 굽던 팬에 베이비케일을 넣고 함께 조리한다.",
+          "소고기 안심을 포일에 감싸 레스팅한다.",
+          "스키야키용 소고기에 간장, 누룩소금으로 양념한다.",
+          "양념한 소고기를 사골육수에 넣고 끓인다.",
+          "끓는 물에 소면을 넣고 삶는다.",
+          "깻잎, 아보카도, 베이비케일, 사골육수를 갈아 그린소스를 만든다.",
+          "방울토마토에 유자 조미료, 발사믹식초, 후추, 올리브오일, 생강청, 레몬식초를 섞어 양념한다.",
+          "삶은 소고기에 흑임자 가루와 누룩소금을 넣고 버무린다.",
+          "소면과 사골육수, 삶은 소고기와 고수를 담는다.",
+          "플레인 요거트와 휘핑크림을 섞어 요거트 크림을 만든다.",
+          "플레인 요거트 크림 위에 트리플베리를 올린다."
+        ],
+        "images": [
+          "KzsuZJZELlU_chef1_shot_1_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_2_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_3_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_4_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_5_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_6_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_7_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_8_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_9_highres.jpg",
+          "KzsuZJZELlU_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "손종원 셰프",
+        "dish_name": "추로틴 싹쓰리",
+        "ingredients": "일본식 오이절임, 간 마늘, 플레인 요거트, 스테이크소스, 유기농 우유, 유자 조미료, 양송이버섯, 샐러드 채소, 발사믹식초, 해시브라운, 홍차 티백, 꿀, 식빵, 시소, 레몬, 연두부, 팥앙금, 아보카도, 버터, 소고기 안심",
+        "steps": [
+          "인스턴트 양념장어를 오븐에 굽는다.",
+          "실로 묶은 소 안심을 겉만 구워 레스팅한다.",
+          "동그랗게 모양낸 식빵에 버터를 발라 오븐에 굽는다.",
+          "소 안심에 버터를 끼얹으며 굽는다.",
+          "우유, 홍차 티백, 설탕을 끓여 밀크티를 만든다.",
+          "시소에 장어, 아보카도, 오이절임을 올려 만다.",
+          "밀크티에 꿀을 섞고 얼음 볼에 식힌다.",
+          "발사믹식초, 스테이크소스를 끓여 발사믹소스를 만든다.",
+          "잘게 부순 해시브라운을 원형 틀에 넣어 굽는다.",
+          "팥앙금 - 연두부 - 밀크티 순으로 담아 연두부 디저트를 만든다.",
+          "구운 식빵 위에 장어 아보카도 롤을 올린다.",
+          "플레인 요거트, 간 마늘, 레몬즙을 섞어 드레싱을 만든다."
+        ],
+        "images": [
+          "KzsuZJZELlU_chef2_shot_1_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_2_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_3_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_4_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_5_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_6_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_7_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_8_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_9_highres.jpg",
+          "KzsuZJZELlU_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LG2YpVAKtdg",
+    "guest": "박병은",
+    "theme": "나는 낚시꾼이다",
+    "chefs": [
+      {
+        "chef_name": "정호영 셰프",
+        "dish_name": "넥스트 갈치",
+        "ingredients": "갑오징어, 완두콩, 레몬즙, 달걀, 코인 육수, 갈치",
+        "steps": [
+          "갑오징어 껍질을 벗겨낸 후 적당한 크기로 썬다.",
+          "믹서에 썬 갑오징어와 달걀흰자를 넣고 맛술을 추가하여 간다.",
+          "갈치를 뼈만 발라 포 뜬 후 소금으로 간한다.",
+          "완두콩을 삶고, 코인 육수를 넣어 육수를 낸다.",
+          "달걀노른자에 설탕, 간장, 맛술을 넣고 섞은 뒤, 끓여둔 육수를 추가한다. 노른자에 식초, 설탕 등을 넣고 중탕해서 일본식 키미즈 소스를 만든다. 이때 빠른 휘핑과 온도 조절이 중요하다.",
+          "포 뜬 갈치를 면처럼 길게 썰어 그물 모양으로 엮은 후, 그물 속에 갑오징어 소를 채운다. 랩으로 빠르게 감싸 모양을 고정한다.",
+          "갈치 그물을 찜기에 넣어 찐다. 찐 갈치 그물을 팬 위에서 2차로 굽는다.",
+          "완성된 요리에 키미즈 소스를 얹고 완두콩으로 장식한다."
+        ],
+        "images": [
+          "LG2YpVAKtdg_chef1_shot_1_highres.jpg",
+          "LG2YpVAKtdg_chef1_shot_2_highres.jpg",
+          "LG2YpVAKtdg_chef1_shot_3_highres.jpg",
+          "LG2YpVAKtdg_chef1_shot_4_highres.jpg",
+          "LG2YpVAKtdg_chef1_shot_5_highres.jpg",
+          "LG2YpVAKtdg_chef1_shot_6_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "샘킴 셰프",
+        "dish_name": "갑오징어링가링가링",
+        "ingredients": "발사믹 식초, 고다치즈, 마요네즈, 갑오징어, 토마토, 굴소스, 완두콩, 양배추, 두유, 레몬",
+        "steps": [
+          "갑오징어 껍질을 벗겨낸 후 몸통 부분만 사용해 촘촘하게 칼집을 낸다. 칼집과 수직으로 잘라 익으면 동그랗게 말리도록 준비한다.",
+          "썬 갑오징어에 후추, 다진 마늘, 올리브오일을 뿌려 재운다.",
+          "완두콩을 삶고 소금으로 간한다.",
+          "채 썬 양배추를 올리브오일, 소금, 후추를 넣고 볶은 후, 직화로 불향을 입힌다.",
+          "팬에 버터와 밀가루를 넣고 볶아 루를 만든 후, 무첨가 원액 두유를 추가하여 베샤멜 소스를 만든다. 고다치즈를 갈아 넣는다.",
+          "마늘을 다진 후 발사믹 식초, 올리브오일, 다진 토마토, 설탕을 섞어 드레싱 소스를 만든다.",
+          "마요네즈에 굴소스, 후추를 추가하여 세 번째 소스를 만든다.",
+          "접시에 볶은 양배추와 삶은 완두콩을 담고, 레몬 제스트와 고다치즈를 갈아 올린다. 볶은 갑오징어를 그 위에 올린다.",
+          "올리브 오일 드레싱을 추가하고 틀을 제거한다."
+        ],
+        "images": [
+          "LG2YpVAKtdg_chef2_shot_1_highres.jpg",
+          "LG2YpVAKtdg_chef2_shot_2_highres.jpg",
+          "LG2YpVAKtdg_chef2_shot_3_highres.jpg",
+          "LG2YpVAKtdg_chef2_shot_4_highres.jpg",
+          "LG2YpVAKtdg_chef2_shot_5_highres.jpg",
+          "LG2YpVAKtdg_chef2_shot_6_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N0LzkAOGn04",
+    "guest": "조세호",
+    "theme": "혹시 여기가 멕시코세호?",
+    "chefs": [
+      {
+        "chef_name": "샘 킴 셰프",
+        "dish_name": "별 타코 싶다",
+        "ingredients": "오레가노 가루, 토르티야, 로메인, 가리비, 생크림, 채끝살, 레몬즙, 토마토, 고수",
+        "steps": [
+          "핸드블렌더에 달걀노른자, 레몬즙, 올리브오일을 넣고 갈아 소스를 만든다",
+          "차게 만든 관자에 후추와 소금으로 간한 후 고수, 고수를 올린다"
+        ],
+        "images": [
+          "N0LzkAOGn04_chef1_dish_highres_1.jpg",
+          "N0LzkAOGn04_chef1_dish_highres_2.jpg",
+          "N0LzkAOGn04_chef1_dish_highres_3.jpg",
+          "N0LzkAOGn04_chef1_dish_highres_4.jpg"
+        ]
+      },
+      {
+        "chef_name": "김 풍 셰프",
+        "dish_name": "별따겠디아",
+        "ingredients": "생모차렐라 치즈, 오레가노 가루, 스리라차 소스, 대패 삼겹살, 양송이버섯, 고체 카레, 토르티야, 치킨 스톡, 파프리카, 레몬즙, 생크림, 양배추, 토마토, 고수, 새우",
+        "steps": [
+          "재료를 볶던 팬에 고춧가루, 오레가노 가루, 치킨 스톡, 새우, 스리라차 소스, 다진 마늘을 넣는다",
+          "다진 양파, 다진 토마토, 식초, 레몬즙, 설탕을 넣는다",
+          "생크림에 레몬즙을 넣어 섞어 야매 사워크림을 만든다"
+        ],
+        "images": [
+          "N0LzkAOGn04_chef2_dish_highres_1.jpg",
+          "N0LzkAOGn04_chef2_dish_highres_2.jpg",
+          "N0LzkAOGn04_chef2_dish_highres_3.jpg",
+          "N0LzkAOGn04_chef2_dish_highres_4.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "OxJS6_Xx144",
+    "guest": "안보현",
+    "theme": "캠핑 요리밖에 안보현",
+    "chefs": [
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "별은 내거양",
+        "ingredients": "사과 맛 딸기 맛 아이스바, 파르메산 치즈, 레몬즙, 고추냉이, 감자칩, 곤약빵, 생크림, 양갈비",
+        "steps": [
+          "으깬 마늘과 올리브오일에 양갈비를 재운다.",
+          "양파를 링 모양으로 썰어 준비한다.",
+          "숯불에 양파와 양갈비를 굽는다. 이때 채소는 바깥쪽, 고기는 안쪽에 놓는다.",
+          "생크림, 버터, 고추냉이를 끓여 크림 대파 소스를 만든다.",
+          "감자 대신 감자칩을 절구에 부숴 매시드포테이토를 만든다.",
+          "사과 맛과 딸기 맛 아이스바에 레몬즙을 졸여 아이스바 글레이즈를 만든다.",
+          "아이스바 글레이즈에 구운 양파를 버무려 글레이징 양파 샐러드를 만든다.",
+          "아이스바 글레이즈에 버터를 녹인다.",
+          "구운 양파, 크림 대파, 매시드포테이토, 그리고 양갈비를 플레이팅하고 아이스바 글레이즈로 마무리한다."
+        ],
+        "images": [
+          "OxJS6_Xx144_chef1_shot_1_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_2_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_3_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_4_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_5_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_6_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_7_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_8_highres.jpg",
+          "OxJS6_Xx144_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "샘 킴 셰프",
+        "dish_name": "별 따라 갈램",
+        "ingredients": "냉동 볶음밥, 양송이버섯, 초당옥수수, 그릭요거트, 블루베리, 연겨자, 레몬즙, 양갈비, 쯔란, 파르메산 치즈",
+        "steps": [
+          "양갈비의 살만 발라낸 뒤 밀가루, 후추에 버무린다. 스튜용 고기는 한입 크기로 썬다.",
+          "콩피용 마늘 기름을 준비한다.",
+          "밀가루 입힌 양갈빗살을 버터와 함께 볶는다.",
+          "블루베리, 레몬즙, 설탕을 끓여 블루베리 소스를 만든다.",
+          "올리브오일을 바른 초당옥수수를 숯불에 굽는다.",
+          "양송이버섯을 올리브오일에 볶는다.",
+          "기름에 볶은 양송이에 생크림과 양갈빗살을 추가하여 양갈비 스튜를 만든다. 스튜에 파르메산 치즈를 갈아 넣는다.",
+          "구운 양파를 잘게 썰어 레몬즙, 설탕, 올리브오일, 후추와 섞는다.",
+          "구운 초당옥수수를 양파샐러드에 넣고 쯔란, 연겨자, 후추, 볶음밥을 섞어 샐러드를 만든다.",
+          "콩피한 양갈비를 숯불에 굽는다.",
+          "양갈비 스튜, 구운 양파&옥수수 샐러드, 그리고 숯불에 구운 양갈비를 플레이팅하고 블루베리 소스와 그릭요거트로 마무리한다."
+        ],
+        "images": [
+          "OxJS6_Xx144_chef2_shot_1_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_2_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_3_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_4_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_5_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_6_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_7_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_8_highres.jpg",
+          "OxJS6_Xx144_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "R-Ec-SQD_yQ",
+    "guest": "이찬원",
+    "theme": "서울 대전 대구 막창 찍고 ♬",
+    "chefs": [
+      {
+        "chef_name": "파브리 셰프",
+        "dish_name": "막창 드라마",
+        "ingredients": "삶은 막창, 피자 소스, 간장 게장, 체더치즈, 비스킷, 들기름, 감태, 파슬리, 프렌치프라이",
+        "steps": [
+          "삶은 막창을 먹기 좋게 자른 후, 비스킷, 감태, 들기름과 함께 믹서에 갈아 반죽을 만든다.",
+          "피자 소스에 잘게 썬 막창과 감자튀김, 후추, 간장게장의 간장을 넣고 끓여 스튜를 만든다.",
+          "막창 감태 비스킷 반죽을 타르트 틀에 채워 오븐에 굽는다.",
+          "달걀흰자, 간장게장, 올리브오일을 믹서에 갈아 게장 마요네즈를 만든다.",
+          "구워진 타르트 위에 막창 스튜를 올리고 게장 마요네즈를 뿌린다.",
+          "마지막으로 볶은 들깨와 파슬리를 뿌려 완성한다."
+        ],
+        "images": [
+          "R-Ec-SQD_yQ_chef1_shot_1_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_2_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_3_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_4_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_5_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_6_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_7_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_8_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_9_highres.jpg",
+          "R-Ec-SQD_yQ_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "막창이 캐비아",
+        "ingredients": "인조 캐비아, 꽈리고추, 삶은 막창, 크림치즈, 달걀 소스, 달걀 간장, 마요네즈, 탄산수, 소주",
+        "steps": [
+          "삶은 막창을 반으로 갈라 칼집을 낸 후, 칼등으로 막창의 잡내를 제거한다.",
+          "소주, 달걀간장, 다진 마늘, 후추, 소금을 끓인 소스에 막창을 조린다.",
+          "크림치즈를 먹기 좋은 크기로 자른 후 튀김가루를 묻히고 탄산수를 섞은 튀김 반죽을 입혀 튀긴다.",
+          "다진 대파와 마요네즈를 섞은 후 체에 내려 대파 마요네즈를 만든다.",
+          "조린 막창에 간장소스를 발라 토치로 직화한다.",
+          "대파 마요네즈로 크림치즈 튀김을 접시에 고정한다.",
+          "크림치즈 튀김 위에 직화한 막창구이를 올리고 인조 캐비아, 꽈리고추, 달걀 소스를 뿌려 완성한다."
+        ],
+        "images": [
+          "R-Ec-SQD_yQ_chef2_shot_1_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_2_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_3_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_4_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_5_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_6_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_7_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_8_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_9_highres.jpg",
+          "R-Ec-SQD_yQ_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SP1NlIL1_1w",
+    "guest": "김재중",
+    "theme": "두 유 노 막걸리?",
+    "chefs": [
+      {
+        "chef_name": "한리광 셰프",
+        "dish_name": "막걸리광",
+        "ingredients": "액상 조미료, 깻잎장아찌, 손질 꽃게, 멸치액젓, 떡국 떡, 굴소스, 불닭 소스, 오징어, 배, 쌈장, 케첩, 달걀, 부추",
+        "steps": [
+          "막걸리를 냄비에 붓고 끓여 알코올을 날린 후 떡국 떡을 넣고 삶는다.",
+          "손질한 오징어와 꽃게를 찜기에 찐다.",
+          "깻잎장아찌와 배를 채 썰어 준비한다.",
+          "팬에 기름을 두르고 쌈장, 케첩, 굴소스, 불닭 소스, 멸치액젓을 넣어 칠리크랩 소스를 만든다.",
+          "찐 오징어와 꽃게를 소스에 넣고 섞는다.",
+          "기름을 두른 팬에 막걸리 떡을 굽는다.",
+          "배추김치에 채 썬 배를 넣고 돌돌 만다.",
+          "김치롤에 부추를 감아 고정한다.",
+          "칠리크랩 소스에 매운 소스와 채 썬 깻잎장아찌를 더한다.",
+          "완성된 칠리크랩을 접시에 담고 구운 막걸리 떡과 김치롤을 곁들여 낸다."
+        ],
+        "images": [
+          "SP1NlIL1_1w_chef1_shot_1_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_2_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_3_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_4_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_5_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_6_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_7_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_8_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_9_highres.jpg",
+          "SP1NlIL1_1w_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "마시마 베스트 초이스",
+        "ingredients": "새우 칠리소스, 바나나맛 우유, 불닭 소스, 다진 마늘, 손질 꽃게, 새우살, 삼겹살, 실당면, 당근 잎, 전분, 달걀",
+        "steps": [
+          "삼겹살을 비닐로 덮은 뒤 고기 망치로 두드려 얇게 편다.",
+          "으깬 새우, 볶은 꽃게살에 다진 마늘을 섞는다.",
+          "삶은 실당면을 넣고 섞어 순대 소를 만든다.",
+          "삼겹살 위에 순대 소를 올린 뒤 돌돌 만다.",
+          "삼겹살 순대를 쿠킹포일로 감싼 뒤 찜기에 찐다.",
+          "찐 삼겹살 순대에 전분, 달걀흰자, 전분 순으로 옷을 입힌다.",
+          "팬에 불닭 소스, 새우 칠리소스, 바나나맛 우유를 넣고 끓여 소스를 만든다.",
+          "소스를 체에 밭쳐 곱게 거른다.",
+          "삼겹살 순대를 기름에 튀긴다.",
+          "접시에 바나나맛 우유를 넣은 소스를 깔고 튀긴 순대를 올린 뒤 당근 잎으로 장식한다."
+        ],
+        "images": [
+          "SP1NlIL1_1w_chef2_shot_1_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_2_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_3_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_4_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_5_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_6_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_7_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_8_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_9_highres.jpg",
+          "SP1NlIL1_1w_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "W5RAM7WDJO4",
+    "guest": "Mimi",
+    "theme": "ASMR 살짝 들었어 난♬",
+    "chefs": [
+      {
+        "chef_name": "정지선 셰프",
+        "dish_name": "튀앤미미",
+        "ingredients": "생 모차렐라 치즈, 체다치즈, 느타리버섯, 채끝살, 표고버섯, 셀러리, 팽이버섯, 당근",
+        "steps": [
+          "즉석밥을 데운다.",
+          "데운 즉석밥, 감자 전분, 달걀을 섞어 반죽을 만든다.",
+          "반죽을 동그랗게 빚어 낮은 온도에서 튀겨 겉은 바삭하고 속은 쫀득한 누룽지 볼을 만든다.",
+          "튀겨낸 누룽지 볼의 윗부분을 자르고 속을 파낸 뒤 한 번 더 튀긴다.",
+          "기름을 두른 팬에 잘게 썬 대파, 다진 생강, 된장, 간장, 설탕을 넣고 볶는다.",
+          "볶은 재료에 잘게 썬 채끝살과 잘게 썬 채소들(느타리버섯, 표고버섯, 셀러리, 팽이버섯, 당근)을 넣고 볶다가 설탕을 더한다.",
+          "마른 팬에 잘게 썬 생모차렐라 치즈와 체다치즈를 노릇하게 굽는다.",
+          "구운 치즈 위에 설탕을 뿌린 뒤 토치로 그을려 크렘브륄레처럼 만든다.",
+          "접시에 볶은 고기 & 채소볶음을 깔고 그 위에 튀긴 누룽지 볼을 올린 뒤, 마지막으로 그을린 치즈를 올려 마무리한다."
+        ],
+        "images": [
+          "W5RAM7WDJO4_chef1_shot_1_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_2_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_3_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_4_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_5_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_6_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_7_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_8_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_9_highres.jpg",
+          "W5RAM7WDJO4_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "임태훈 셰프",
+        "dish_name": "백짬뽕 시키신 분",
+        "ingredients": "느타리버섯, 건꽃새우, 서리태 콩물, 건멸치, 라면 과자, 애호박, 삶은 병아리콩, 당근, 표고버섯, 관자, 꽃삼겹살, 전복",
+        "steps": [
+          "끓는 물에 건멸치와 건꽃새우를 넣어 해물 육수를 낸다.",
+          "전복을 깨끗이 씻어 해물 육수에 넣고 익힌 뒤 건져 손질한다.",
+          "느타리버섯을 찢어 해물 육수에 넣는다.",
+          "밀가루, 소금, 서리태 콩물, 물을 섞어 면 반죽을 만든다.",
+          "반죽을 밀대로 펴고 두툼하게 썰어 쫄깃한 수타면을 만든다.",
+          "끓는 물에 수타면을 삶는다.",
+          "웍에 맛술을 두르고 손질한 대파와 마늘, 꽃삼겹살, 채소들(애호박, 당근, 표고버섯)을 넣고 볶는다.",
+          "볶은 재료에 해물 육수를 추가하고 소금과 후추로 간을 맞춘다.",
+          "삶은 면을 그릇에 담고 볶은 해물 육수와 재료들을 부어 백짬뽕을 완성한다.",
+          "삶은 병아리콩을 기름에 튀긴 후 설탕 시럽을 입혀 라면 과자 위에 올려 곁들인다."
+        ],
+        "images": [
+          "W5RAM7WDJO4_chef2_shot_1_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_2_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_3_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_4_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_5_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_6_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_7_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_8_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_9_highres.jpg",
+          "W5RAM7WDJO4_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZIih_v7l61U",
+    "guest": "도경수",
+    "theme": "노량진 수산시장",
+    "chefs": [
+      {
+        "chef_name": "윤남노 셰프",
+        "dish_name": "윤남노 노량진",
+        "ingredients": "콜리플라워, 애플민트, 참소라, 비스킷, 아몬드, 파슬리, 타임, 관자, 백합, 레몬, 금태",
+        "steps": [
+          "참소라, 대파, 마늘을 삶는다.",
+          "석쇠에 백합을 올려 직화한다.",
+          "살만 발라낸 금태를 소금으로 밑간한다.",
+          "파슬리, 아몬드, 비스킷을 믹서에 갈아 버터와 섞어 파슬리 버터를 만든다.",
+          "파슬리 버터에 마늘과 양파를 넣고 끓인다.",
+          "슬라이스 한 관자에 올리브오일을 발라 직화한다.",
+          "삶은 참소라를 찬물에 헹궈 식힌 후 껍데기를 제거하고 내장을 잘라낸다.",
+          "파슬리 버터에 참소라, 관자, 백합을 넣고 볶는다.",
+          "금태에 타임 향을 입힌다.",
+          "콜리플라워와 애플민트를 잘게 다져 준비한다.",
+          "올리브오일, 소금, 후추로 콜리플라워 샐러드를 만든다.",
+          "에스카르고 위에 금태구이를 올리고 레몬 제스트와 올리브오일로 마무리한다."
+        ],
+        "images": [
+          "ZIih_v7l61U_chef1_shot_1_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_2_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_3_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_4_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_5_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_6_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_7_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_8_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_9_highres.jpg",
+          "ZIih_v7l61U_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "권성준 셰프",
+        "dish_name": "노량진 맛피아",
+        "ingredients": "파르미지아노 치즈, 토마토 페이스트, 콜리플라워, 생크림, 위스키, 오징어, 미더덕, 벤자리, 아몬드, 백합, 관자, 타임, 바질, 레몬",
+        "steps": [
+          "콜리플라워를 전자레인지에 찐다.",
+          "프라이팬에 백합과 미더덕을 볶는다.",
+          "살만 발라낸 벤자리를 올리브오일, 소금, 후추를 뿌려 굽는다.",
+          "관자를 팬에 굽는다.",
+          "백합과 미더덕에 위스키를 부어 플람베한다. 물을 붓고 뚜껑을 덮어 익힌다.",
+          "바질, 올리브오일, 아몬드, 마늘, 파르미지아노 치즈를 갈아 바질 페스토를 만든다.",
+          "찐 콜리플라워와 생크림, 버터, 마늘, 치즈를 갈아 퓌레를 만든다.",
+          "오징어를 링 모양으로 썰어 백합 토마토 술찜에 더한다.",
+          "토마토 술찜 국물에 버터와 토마토 페이스트를 더해 졸인다.",
+          "바질 페스토 위에 익힌 오징어와 미더덕을 올린다.",
+          "콜리플라워 퓌레를 뿌리고 토마토 술찜 국물을 더해 이탈리아 국기 3색을 표현한다.",
+          "벤자리와 관자, 레몬과 허브를 종이 포일에 싸서 오븐에 굽는다."
+        ],
+        "images": [
+          "ZIih_v7l61U_chef2_shot_1_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_2_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_3_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_4_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_5_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_6_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_7_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_8_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_9_highres.jpg",
+          "ZIih_v7l61U_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b81RiwKna2I",
+    "guest": "최양락 & 팽현숙",
+    "theme": "괜찮아유~ 맛있으면 돼지",
+    "chefs": [
+      {
+        "chef_name": "박은영 셰프",
+        "dish_name": "딤섬 여신",
+        "ingredients": "삭힌 고추 양념, 라이스페이퍼, 표고버섯, 맛간장, 양배추, 소면, 굴소스, 삼겹살",
+        "steps": [
+          "핸드블렌더에 불린 쌀을 넣고 갈아 쌀가루를 만든다.",
+          "쌀가루를 체에 받쳐 고운 가루로 내린다.",
+          "쌀가루에 전분, 물, 기름을 넣고 섞어 창펀 반죽을 만든다.",
+          "삼겹살을 적당한 크기로 썬다.",
+          "튀긴 소면을 체에 받쳐 기름을 뺀다.",
+          "기름을 두른 팬에 삼겹살과 채소(표고버섯, 양배추), 굴소스, 삭힌 고추 양념을 넣고 볶아 딤섬 소를 만든다.",
+          "물을 묻힌 라이스페이퍼에 딤섬 소를 넣고 감싼다.",
+          "창펀 반죽을 찜통에 찐다.",
+          "딤섬 소를 감싼 라이스페이퍼에 물을 묻힌 후 부순 소면을 붙인다.",
+          "소스 냄비에 맛간장을 끓인다.",
+          "끓인 맛간장에 으깬 마늘, 대파를 넣고 끓여 소스를 만든다."
+        ],
+        "images": [
+          "b81RiwKna2I_chef1_shot_1_highres.jpg",
+          "b81RiwKna2I_chef1_shot_2_highres.jpg",
+          "b81RiwKna2I_chef1_shot_3_highres.jpg",
+          "b81RiwKna2I_chef1_shot_4_highres.jpg",
+          "b81RiwKna2I_chef1_shot_5_highres.jpg",
+          "b81RiwKna2I_chef1_shot_6_highres.jpg",
+          "b81RiwKna2I_chef1_shot_7_highres.jpg",
+          "b81RiwKna2I_chef1_shot_8_highres.jpg",
+          "b81RiwKna2I_chef1_shot_9_highres.jpg",
+          "b81RiwKna2I_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "정지선 셰프",
+        "dish_name": "나한테 안 돼지",
+        "ingredients": "팽이버섯, 굴소스, 항정살, 갓김치, 깨, 고수, 오이, 콩나물",
+        "steps": [
+          "끓는 물에 콩나물을 넣고 삶는다.",
+          "갓김치 양념을 물에 씻어 내고 잘게 썬다.",
+          "항정살은 비계만 떼어내 기름과 함께 볶는다.",
+          "끓는 물에 손질한 대파, 소금을 넣고 끓인다.",
+          "비닐 팩에 전분과 항정살을 넣고 고기망치로 두드려 넓게 편다.",
+          "항정살 비계를 볶던 팬에 손질한 고수와 대파를 넣고 함께 볶는다.",
+          "마른 팬에 팽이버섯을 볶는다.",
+          "갓김치, 깨, 고춧가루, 설탕, 간장, 굴소스, 후추를 넣고 섞어 양념을 만든다.",
+          "갓김치 양념에 항정살 비계와 채소로 낸 기름을 넣고 섞는다.",
+          "넓게 편 항정살을 길게 잘라 대파를 끓이던 물에 삶는다."
+        ],
+        "images": [
+          "b81RiwKna2I_chef2_shot_1_highres.jpg",
+          "b81RiwKna2I_chef2_shot_2_highres.jpg",
+          "b81RiwKna2I_chef2_shot_3_highres.jpg",
+          "b81RiwKna2I_chef2_shot_4_highres.jpg",
+          "b81RiwKna2I_chef2_shot_5_highres.jpg",
+          "b81RiwKna2I_chef2_shot_6_highres.jpg",
+          "b81RiwKna2I_chef2_shot_7_highres.jpg",
+          "b81RiwKna2I_chef2_shot_8_highres.jpg",
+          "b81RiwKna2I_chef2_shot_9_highres.jpg",
+          "b81RiwKna2I_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hHWGNMXNuig",
+    "guest": "진",
+    "theme": "어서 와, 이런 초밥은 처음이지?",
+    "chefs": [
+      {
+        "chef_name": "손종원 셰프",
+        "dish_name": "미스터 어메이진 초밥왕자님",
+        "ingredients": "가다랑어포, 김밥용 김, 팽이버섯, 고추냉이, 킹크랩, 참돔회, 광어회, 참치회, 참외, 레몬, 깻잎, 꿀, 깨",
+        "steps": [
+          "가다랑어포로 육수를 낸 후 면포에 걸러준다.",
+          "육수에 팽이버섯을 넣고 살짝 데쳐 식감을 살린다.",
+          "냄비에 간장, 맛술, 가다랑어포를 넣고 끓여 양념간장을 만든다.",
+          "밥에 식초, 설탕, 소금을 넣은 단촛물을 넣고 골고루 섞는다.",
+          "김 위에 밥을 얇게 펴고 고추냉이와 양념간장을 바른 뒤 오이를 통으로 올려 김밥을 만든다.",
+          "참치회와 참돔회를 얇게 썬다.",
+          "만든 오이 김밥을 4등분 하고, 모서리에 오이를 배치하여 사각 김밥을 만든다.",
+          "사각 김밥 가운데에 길게 썬 회를 올리고 모서리를 오이로 감싸 돌돌 말아준다.",
+          "참외 껍질을 깐 뒤 얇게 슬라이스하고, 참외와 같은 크기로 김을 썬다.",
+          "얇게 썬 참외에 꿀을 바르고 참외와 김을 교대로 쌓아 초밥을 만든다.",
+          "초밥용 광어와 깻잎을 준비하고, 킹크랩과 팽이버섯도 초밥용 크기로 썰어 준비한다.",
+          "참외와 김, 광어와 깻잎에 레몬즙을 뿌린 뒤 레몬 제스트를 올린다.",
+          "밥에 고추냉이를 바르고 손으로 밥알을 쥐어 초밥을 만든다.",
+          "킹크랩과 팽이버섯 초밥을 김으로 감싸고 양념간장을 발라 마무리한다.",
+          "남은 참치&참돔&오이 김초밥을 적당한 크기로 썰어 접시에 올린다.",
+          "된장국을 끓여 초밥과 함께 낸다."
+        ],
+        "images": [
+          "hHWGNMXNuig_chef1_shot_1_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_2_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_3_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_4_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_5_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_6_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_7_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_8_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_9_highres.jpg",
+          "hHWGNMXNuig_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "초이밥",
+        "ingredients": "김밥용 김, 차돌박이, 체더치즈, 고추냉이, 라면수프, 팽이버섯, 킹크랩, 참치회, 연어회, 레몬, 오이",
+        "steps": [
+          "레몬즙과 식초, 설탕, 소금을 정확하게 계량하여 섞은 뒤 가열하여 단촛물을 만든다.",
+          "참치회를 얇게 펴고 김으로 감싸 참치 김말이를 만든다.",
+          "연어회도 작게 잘라 김을 붙여 준비한다.",
+          "참치 김말이를 얇게 썬다.",
+          "오이의 씨를 제거한 뒤 잘게 썰어 면포에 감싸 물기를 제거한다.",
+          "팽이버섯에 튀김가루와 라면수프를 묻혀 기름에 튀긴다.",
+          "랩 위에 연어회, 김, 고추냉이, 밥을 올리고 랩으로 싸서 동그랗게 모양을 잡아 연어 테마리 초밥을 만든다.",
+          "랩 위에 참치 김말이, 고추냉이, 밥을 올리고 동그랗게 말아 참치 테마리 초밥을 만든다.",
+          "끓는 물에 차돌박이를 살짝 데친다.",
+          "랩 위에 데친 차돌박이, 체더치즈, 고추냉이, 밥을 올리고 랩으로 싸서 동그랗게 모양을 잡아 차돌&치즈 테마리 초밥을 만든다.",
+          "초밥을 쥔 뒤 김으로 감싸 군함말이를 만들고, 튀긴 팽이버섯을 올려 팽이버섯 군함말이를 만든다.",
+          "남은 차돌&치즈 테마리 초밥을 토치로 직화하여 마무리한다."
+        ],
+        "images": [
+          "hHWGNMXNuig_chef2_shot_1_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_2_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_3_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_4_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_5_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_6_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_7_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_8_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_9_highres.jpg",
+          "hHWGNMXNuig_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kiqPDSEjzao",
+    "guest": "박병은",
+    "theme": "나는 술꾼이다",
+    "chefs": [
+      {
+        "chef_name": "최현석 셰프",
+        "dish_name": "소주엔 마파징",
+        "ingredients": "올리브 오일, 불린 쌀, 설렁탕 육수, 오징어, 간장, 다진 파, 다진 생강, 고추장, 두반장, 깍둑썰기한 두부, 고춧가루, 버터, 대파, 설탕",
+        "steps": [
+          "팬에 올리브 오일을 두른 후 불린 쌀을 넣고 볶기 시작합니다.",
+          "볶던 쌀에 설렁탕 육수를 부어 리소토처럼 끓여줍니다.",
+          "리소토에 고추장을 갈아 넣고 잘 섞어줍니다.",
+          "리소토에 버터를 넣고 잘 섞어줍니다.",
+          "오징어를 핸드블렌더에 넣고 갈아줍니다.",
+          "다른 팬에 올리브 오일을 두른 후 갈아 놓은 오징어를 넣고 볶아줍니다.",
+          "볶은 오징어에 간장, 다진 파, 다진 생강을 넣고 함께 볶아줍니다.",
+          "다진 생강을 천에 감싸 즙을 짜서 볶던 오징어에 넣어줍니다.",
+          "볶던 오징어에 설렁탕 육수와 두반장을 넣고 졸여줍니다.",
+          "졸이던 오징어에 고춧가루를 넣어줍니다.",
+          "깍둑썰기한 두부를 넣고 소스가 잘 배도록 졸여 마파두부를 완성합니다.",
+          "완성된 마파두부와 리소토를 각각 다른 그릇에 담아줍니다.",
+          "마파두부 위에는 채 썬 대파를, 리소토 위에는 얇게 썬 고추를 올려 장식합니다.",
+          "마파두부 위에 설탕을 뿌려 마무리합니다."
+        ],
+        "images": [
+          "kiqPDSEjzao_chef1_shot_1_highres.jpg",
+          "kiqPDSEjzao_chef1_shot_2_highres.jpg",
+          "kiqPDSEjzao_chef1_shot_3_highres.jpg",
+          "kiqPDSEjzao_chef1_shot_4_highres.jpg",
+          "kiqPDSEjzao_chef1_shot_5_highres.jpg",
+          "kiqPDSEjzao_chef1_shot_6_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "정지선 셰프",
+        "dish_name": "막걸리엔 두부랑깨",
+        "ingredients": "대파, 홍고추, 식용유, 메밀면, 두부, 물, 생강청, 간장, 고추기름, 갈치, 전분, 통깨, 땅콩버터, 파김치",
+        "steps": [
+          "대파와 홍고추를 썰어 식용유에 볶아 파기름을 만듭니다.",
+          "끓는 물에 메밀면을 삶아줍니다.",
+          "두부를 3등분으로 자른 후 팬에 물과 생강청을 넣고 끓여 조려줍니다.",
+          "조린 두부를 건져 반으로 칼집을 내어줍니다.",
+          "갈치에 전분을 묻혀줍니다.",
+          "파기름에 전분 묻힌 갈치를 넣고 튀겨줍니다.",
+          "조린 두부에 통깨를 수북하게 묻혀줍니다.",
+          "통깨를 묻힌 두부를 팬에 굽기 시작합니다.",
+          "삶은 메밀면을 찬물에 헹궈 준비합니다.",
+          "튀긴 갈치의 가시를 발라내어 살만 준비합니다.",
+          "김발 위에 랩을 깔고 메밀면을 올린 후 갈치 살을 올리고 돌돌 말아줍니다.",
+          "메밀면 갈치말이를 팬에 넣고 튀겨줍니다.",
+          "간장과 고추기름을 섞어 소스를 만듭니다.",
+          "구운 두부 사이에 땅콩버터를 듬뿍 발라줍니다.",
+          "튀긴 메밀면 갈치말이를 접시에 담고 그 위에 파김치를 올려줍니다.",
+          "땅콩버터를 바른 두부를 접시에 올리고 소스를 뿌려 마무리합니다."
+        ],
+        "images": [
+          "kiqPDSEjzao_chef2_shot_1_highres.jpg",
+          "kiqPDSEjzao_chef2_shot_2_highres.jpg",
+          "kiqPDSEjzao_chef2_shot_3_highres.jpg",
+          "kiqPDSEjzao_chef2_shot_4_highres.jpg",
+          "kiqPDSEjzao_chef2_shot_5_highres.jpg",
+          "kiqPDSEjzao_chef2_shot_6_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "m_IRJOX8ZFM",
+    "guest": "진",
+    "theme": "어서 와, 이런 물회는 처음이지?",
+    "chefs": [
+      {
+        "chef_name": "윤남노 셰프",
+        "dish_name": "물회한 돌아이",
+        "ingredients": "아몬드 우유, 가다랑어포, 김밥용 김, 고추냉이, 새우살, 아몬드, 킹크랩, 광어회, 깻잎, 무",
+        "steps": [
+          "김을 겹쳐서 냄비에 넣고 맛술, 설탕, 간장, 물을 조려 김 장아찌를 만든다.",
+          "팬에 올리브오일을 넉넉히 두르고 가다랑어포를 볶아 가다랑어포 오일을 만든 뒤 얼음 위에 올려 차갑게 식힌다.",
+          "믹서에 아몬드와 아몬드 우유를 넣고 갈아 걸쭉한 육수를 만든다.",
+          "무를 꽃 틀로 찍어내 눈꽃 모양 무를 만든다.",
+          "새우살을 살짝 데쳐 얼음물에 식힌다.",
+          "광어회를 깍둑썰기하고 킹크랩 살을 발라낸다.",
+          "광어회와 킹크랩에 가다랑어포 오일, 소금, 고추냉이를 넣고 섞는다.",
+          "김 장아찌를 다져서 광어회와 킹크랩 믹스에 넣고 섞는다.",
+          "깻잎을 잘게 썰고 데친 새우를 넣은 뒤 올리브오일로 버무린다.",
+          "차게 식힌 그릇에 원형 틀을 놓고 광어회무침을 채우고 꽃 무를 올린 뒤 틀을 제거한다.",
+          "아몬드 육수를 그릇에 부어 마무리한다."
+        ],
+        "images": [
+          "m_IRJOX8ZFM_chef1_shot_1_highres.jpg",
+          "m_IRJOX8ZFM_chef1_shot_2_highres.jpg",
+          "m_IRJOX8ZFM_chef1_shot_3_highres.jpg",
+          "m_IRJOX8ZFM_chef1_shot_4_highres.jpg",
+          "m_IRJOX8ZFM_chef1_shot_5_highres.jpg",
+          "m_IRJOX8ZFM_chef1_shot_6_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "에드워드 리 셰프",
+        "dish_name": "나는 물회인간입니다",
+        "ingredients": "동치미 냉면 육수, 사골 냉면 육수, 고추냉이, 초고추장, 배추김치, 블루베리, 참치회, 무순, 깻잎, 수박, 깨, 지렁이 젤리",
+        "steps": [
+          "참치회를 얇게 썰어 소금에 버무린다.",
+          "청양고추를 얇게 썰고 블루베리를 반으로 자른다. 수박을 깍둑썰기한다.",
+          "양파를 아주 얇게 썰어 소금에 절인 뒤 김치 국물에 절인다.",
+          "그릇에 참치회, 청양고추, 블루베리, 수박, 배추김치, 김치 국물에 절인 양파를 담는다.",
+          "초고추장, 사골 냉면 육수, 간장, 참기름, 고춧가루, 설탕을 섞어 물회 양념을 만든다.",
+          "수박, 고추냉이, 동치미 냉면 육수, 설탕, 식초, 고춧가루를 믹서에 갈아 수박 육수를 만든다.",
+          "지렁이 젤리를 얇게 썰어 준비한다.",
+          "그릇에 깻잎과 무순을 올린다.",
+          "완성된 물회에 수박 육수를 붓고 올리브오일을 뿌려 마무리한다."
+        ],
+        "images": [
+          "m_IRJOX8ZFM_chef2_shot_1_highres.jpg",
+          "m_IRJOX8ZFM_chef2_shot_2_highres.jpg",
+          "m_IRJOX8ZFM_chef2_shot_3_highres.jpg",
+          "m_IRJOX8ZFM_chef2_shot_4_highres.jpg",
+          "m_IRJOX8ZFM_chef2_shot_5_highres.jpg",
+          "m_IRJOX8ZFM_chef2_shot_6_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nYkIRA34z9M",
+    "guest": "도경수",
+    "theme": "Cold Baby♫",
+    "chefs": [
+      {
+        "chef_name": "손종원 셰프",
+        "dish_name": "천D.O.꿀복숭아",
+        "ingredients": "화이트 발사믹 식초, 부라타 치즈, 로메인 상추, 천도복숭아, 멸치볶음, 애플민트, 비스킷, 아몬드, 꿀",
+        "steps": [
+          "버터를 팬에 녹인 후, 밀가루, 달걀흰자, 꿀을 정량 맞춰 넣고 튀일 반죽을 완성한다.",
+          "완성된 튀일 반죽을 벌집 모양 틀에 얇게 펴 바른다. (설탕은 넣지 않는다)",
+          "천도복숭아에 칼집을 낸 후 돌려가며 씨를 분리하고, 달군 그릴 위에 올려 그릴 자국을 내며 굽는다.",
+          "구운 복숭아를 냉동실에 넣어 차갑게 식히고, 접시도 함께 냉동실에 넣어 차갑게 준비한다.",
+          "핸드블렌더에 천도복숭아, 소금, 올리브오일, 화이트 발사믹 식초, 꿀을 넣고 갈아 복숭아 드레싱을 만든다. 후추를 추가하여 간을 맞춘다.",
+          "완성된 복숭아 드레싱을 냉장고에 넣어 차갑게 식힌다.",
+          "멸치볶음, 아몬드, 비스킷을 잘게 다져 멸치 아몬드 크럼블을 만든다.",
+          "차갑게 식힌 접시 위에 복숭아 밑동을 잘라 안정적으로 올리고, 그 주위에 멸치 아몬드 크럼블을 뿌린다.",
+          "복숭아 위에 부라타 치즈를 올리고, 천도복숭아 슬라이스, 로메인, 애플민트를 올려 장식한다.",
+          "소금과 후추로 마무리한다.",
+          "얼음을 갈아 그릇에 담고, 그 안에 복숭아 드레싱 병을 넣어 차갑게 유지하며 서빙한다."
+        ],
+        "images": [
+          "nYkIRA34z9M_chef1_shot_1_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_2_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_3_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_4_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_5_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_6_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_7_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_8_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_9_highres.jpg",
+          "nYkIRA34z9M_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "달걀 러브샷♫",
+        "ingredients": "방울토마토, 간장소스, 치킨스톡, 굴소스, 쪽파, 깻잎, 오이, 레몬, 당근, 무, 꿀",
+        "steps": [
+          "무, 당근, 대파, 레몬 껍질을 적당한 크기로 썰어 물에 넣고 끓여 채수를 만든다.",
+          "팬에 고춧가루, 대파, 고추를 넣고 끓여 고추기름을 만든다. 마늘을 으깨어 추가하여 풍추기름을 완성한다.",
+          "끓는 물에 방울토마토를 넣고 설탕을 뿌려 빠르게 마리네이드한다. 꿀, 식초, 소금을 추가한 후 얼음물에 넣어 차갑게 식혀 방울토마토청을 완성한다.",
+          "달걀을 풀고 치킨스톡을 넣어 섞은 후, 기름에 튀겨 유부 같은 식감의 달걀 튀김을 만든다.",
+          "달걀 튀김을 뜨거운 물에 데쳐 기름기를 뺀 후, 얼음물에 넣어 차갑게 식힌다.",
+          "완성된 채수에 얼음을 넣어 냉국을 만든다.",
+          "채 썬 양파를 냉국에 넣는다.",
+          "껍질을 벗긴 방울토마토, 얇게 썬 오이, 채 썬 깻잎을 냉국에 넣는다.",
+          "달걀 튀김을 냉국 위에 올리고, 완성된 풍추기름을 넉넉하게 뿌려 마무리한다."
+        ],
+        "images": [
+          "nYkIRA34z9M_chef2_shot_1_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_2_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_3_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_4_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_5_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_6_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_7_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_8_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_9_highres.jpg",
+          "nYkIRA34z9M_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "o6nr_eSGVjI",
+    "guest": "임윤아",
+    "theme": "야심한 밤 : 악마의 유혹",
+    "chefs": [
+      {
+        "chef_name": "김 풍 셰프",
+        "dish_name": "킬링유 Baby♬",
+        "ingredients": "라이스페이퍼, 갈비양념, 레몬즙, 굴소스, 삼겹살, 우유, 수박, 쯔유, 새우",
+        "steps": [
+          "짤주머니에 간 재료를 채운다",
+          "라이스페이퍼를 물에 적셔 길게 깔고 짤주머니의 재료를 짜서 올린 뒤 돌돌 만다",
+          "흑마술을 외워서 롤리팝을 소환한다",
+          "기름을 넉넉히 두른 팬에 롤리팝 곱창을 굽는다",
+          "수박 주스를 체에 걸러 루와 함께 끓인다",
+          "수박 수프에 설탕, 레몬즙, 우유를 더해 끓인다"
+        ],
+        "images": [
+          "o6nr_eSGVjI_chef1_dish_highres_1.jpg",
+          "o6nr_eSGVjI_chef1_dish_highres_2.jpg",
+          "o6nr_eSGVjI_chef1_dish_highres_3.jpg",
+          "o6nr_eSGVjI_chef1_dish_highres_4.jpg"
+        ]
+      },
+      {
+        "chef_name": "정호영 셰프",
+        "dish_name": "김풍? 지지지지지 Baby Baby♬",
+        "ingredients": "그라나파다노 치즈, 스리라차 소스, 만체고 치즈, 골뱅이, 살사 소스, 브리 치즈, 갈비양념, 오징어, 삼겹살, 채끝살, 루꼴라, 스파게티 면, 우유, 새우, 청란, 케첩",
+        "steps": [
+          "칼집 낸 오징어와 새우, 골뱅이를 마늘, 양파와 함께 올리브오일에 볶는다",
+          "버터에 밀가루를 볶고 우유와 치즈를 끓여 모르네 소스를 만든다",
+          "물과 튀김가루를 섞어 튀김 반죽을 만든다",
+          "튀김 반죽을 입힌 브리 치즈를 통째로 튀긴다"
+        ],
+        "images": [
+          "o6nr_eSGVjI_chef2_dish_highres_1.jpg",
+          "o6nr_eSGVjI_chef2_dish_highres_2.jpg",
+          "o6nr_eSGVjI_chef2_dish_highres_3.jpg",
+          "o6nr_eSGVjI_chef2_dish_highres_4.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qTOMSNzaZzI",
+    "guest": "이찬원",
+    "theme": "진또배기 중국 요리",
+    "chefs": [
+      {
+        "chef_name": "임태훈 셰프",
+        "dish_name": "회과육 시키신 분",
+        "ingredients": "새송이버섯, 목이버섯, 표고버섯, 꽈리고추, 순두부, 황두장, 알배추, 삼겹살, 춘장",
+        "steps": [
+          "대파, 마늘, 목이버섯, 꽈리고추를 적당한 크기로 썬다.",
+          "전분을 묻힌 삼겹살을 기름에 튀긴다. 튀긴 고기를 얼음물에 담가 쫄깃한 식감을 만든다.",
+          "찬물에 순두부를 넣고 적당한 크기로 썬다. (형태를 유지하기 위함)",
+          "마늘, 고추, 대파를 잘게 썬다.",
+          "기름을 두른 팬에 손질한 채소와 간장을 넣고 볶는다.",
+          "황두장, 춘장, 물을 섞어 회과육 소스를 만든다.",
+          "재료를 볶던 팬에 회과육 소스, 고추기름, 후추를 넣고 볶는다.",
+          "튀긴 삼겹살, 알배추, 버섯류를 추가하여 강불에 빠르게 볶는다.",
+          "순두부 냉채 소스를 만든다. 간장, 식초, 설탕, 고추기름을 넣고 섞는다.",
+          "순두부 위에 냉채 소스를 얹어 완성한다."
+        ],
+        "images": [
+          "qTOMSNzaZzI_chef1_shot_1_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_2_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_3_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_4_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_5_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_6_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_7_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_8_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_9_highres.jpg",
+          "qTOMSNzaZzI_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "여경래 셰프",
+        "dish_name": "그랜드 초면 마스터",
+        "ingredients": "명이나물장아찌, 고추장아찌, 깻잎장아찌, 꽈리고추, 구이용 삼겹살, 새송이버섯, 표고버섯, 청경채, 굴소스",
+        "steps": [
+          "잘게 썬 장아찌류와 양파, 참기름을 버무린 후 따로 낸다.",
+          "라면 사리를 삶은 후 기름에 튀겨 바삭한 식감과 노릇한 색감을 낸다.",
+          "기름을 두른 팬에 손질한 삼겹살과 꽈리고추, 간장을 넣고 볶는다. 불맛을 추가한다.",
+          "팬에 손질한 채소와 고춧가루, 물, 굴소스, 후추를 넣고 끓여 소스를 만든다.",
+          "라면 사리를 소스에 투하하고 전분물을 추가하여 볶는다.",
+          "남은 면에 달걀물을 투하하여 볶은 후, 굴소스와 달걀 섞은 초면을 그 위에 얹어 완성한다."
+        ],
+        "images": [
+          "qTOMSNzaZzI_chef2_shot_1_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_2_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_3_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_4_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_5_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_6_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_7_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_8_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_9_highres.jpg",
+          "qTOMSNzaZzI_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tI_sfQfStCg",
+    "guest": "이세돌",
+    "theme": "낙지 대결",
+    "chefs": [
+      {
+        "chef_name": "정지선 셰프",
+        "dish_name": "딤섬이 낙지",
+        "ingredients": "청양고춧가루, 무, 손질 파인애플, 배, 비금도 소금, 두부, 까나리액젓, 낙지, 조미김, 황태채",
+        "steps": [
+          "낙지 머리를 10초간 데친 후 얼음물에 식힌다.",
+          "낙지 다리를 데친 물에 무, 대파, 청양고추, 황태채를 넣고 끓여 육수를 만든다.",
+          "낙지 다리를 데친 후 얼음물에 식힌다.",
+          "으깬 두부, 잘게 다진 조미김, 잘게 다진 낙지 다리를 섞어 딤섬 소를 만든다.",
+          "파인애플을 굽고 배를 잘게 다진다.",
+          "기름을 두른 팬에 고춧가루, 잘게 다진 대파, 잘게 다진 마늘을 볶아 고추기름을 낸다.",
+          "딤섬 소에 고추기름, 달걀, 전분, 잘게 다진 파인애플과 배를 넣고 섞는다.",
+          "데친 낙지 머리에 딤섬 소를 채우고 이쑤시개로 고정한다.",
+          "낙지 황태 육수를 체에 거른다.",
+          "육수에 까나리액젓, 소금, 맛술, 후추를 넣어 간을 맞춘다.",
+          "소를 채운 낙지 딤섬을 찜기에 찐다.",
+          "찐 낙지 딤섬을 그릇에 담고 육수를 부어 완성한다."
+        ],
+        "images": [
+          "tI_sfQfStCg_chef1_shot_1_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_2_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_3_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_4_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_5_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_6_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_7_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_8_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_9_highres.jpg",
+          "tI_sfQfStCg_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "윤남노 셰프",
+        "dish_name": "이세돌아이",
+        "ingredients": "쌀국수 소스, 낙지, 양배추 채, 우럭, 생새우살, 편마늘, 누룽지, 홍합살",
+        "steps": [
+          "끓는 물에 소금을 넣고 낙지를 삶는다.",
+          "우럭살과 생새우살을 잘게 다진 후 전분과 간장을 넣고 섞어 완자를 만든다. 만든 완자를 끓는 물에 삶는다.",
+          "누룽지를 기름에 튀긴다.",
+          "기름을 두른 팬에 잘게 썬 양파와 대파를 볶아 파기름을 낸다.",
+          "파기름에 채 썬 양배추와 삶은 낙지를 넣고 볶는다. 물, 간장, 맛술을 넣고 끓여 낙지탕을 만든다.",
+          "낙지탕에 홍합살과 편마늘을 넣고 끓인다.",
+          "낙지탕에 삶은 완자를 넣고 끓인다.",
+          "튀긴 누룽지를 낙지탕에 넣고 끓인다.",
+          "낙지탕에 쌀국수 소스와 전분물을 더해 농도를 맞춘 후 뚝배기에 옮겨 끓인다.",
+          "뚝배기에 담은 낙지탕 위에 채 썬 대파를 올려 마무리한다."
+        ],
+        "images": [
+          "tI_sfQfStCg_chef2_shot_1_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_2_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_3_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_4_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_5_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_6_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_7_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_8_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_9_highres.jpg",
+          "tI_sfQfStCg_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wKW0NfbR3Ng",
+    "guest": "이세돌 & 이찬원",
+    "theme": "이세돌 냉장고 대결",
+    "chefs": [
+      {
+        "chef_name": "권성준 셰프",
+        "dish_name": "제로 슈거 대국",
+        "ingredients": "",
+        "steps": [],
+        "images": []
+      },
+      {
+        "chef_name": "김풍 셰프",
+        "dish_name": "제로 슈거 대국",
+        "ingredients": "",
+        "steps": [],
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "wla2A16c7TY",
+    "guest": "박명수",
+    "theme": "혼맥 할명수",
+    "chefs": [
+      {
+        "chef_name": "윤남노 셰프",
+        "dish_name": "맥주가 안 남노",
+        "ingredients": "트러플 올리브 소스, 크루아상 생지, 발사믹 식초, 방울토마토, 꽃등심, 케비아, 루꼴라, 올리브, 케이퍼",
+        "steps": [
+          "크루아상 생지를 납작하게 민다.",
+          "기름을 두른 팬에 크루아상 생지를 올리고, 종이호일을 덮은 뒤 무거운 냄비로 눌러가며 굽는다.",
+          "양파, 케이퍼, 올리브를 잘게 다진다.",
+          "간 마늘과 올리브오일을 냄비에 넣고 끓여 마늘오일을 만든다.",
+          "마늘오일에 꽃등심을 넣어 콩피처럼 익힌다.",
+          "익힌 꽃등심을 석쇠에 올려 토치로 5초간 직화하여 불향을 입힌 뒤 잘게 썬다.",
+          "잘게 썬 꽃등심에 다진 양파, 케이퍼, 올리브, 트러플 올리브 소스, 캐비아, 소금, 올리브오일, 마늘오일을 넣고 섞는다.",
+          "반으로 자른 방울토마토에 소금, 후추를 뿌려 밑간한다.",
+          "루꼴라, 밑간한 방울토마토, 올리브오일, 발사믹 식초, 후추를 섞어 샐러드를 만든다.",
+          "구운 크루아상 생지를 사각형 모양으로 자른다.",
+          "사각형 크루아상 위에 육회를 겹겹이 쌓아 육회 밀푀유를 만든다.",
+          "샐러드와 육회 밀푀유를 함께 플레이팅한다."
+        ],
+        "images": [
+          "wla2A16c7TY_chef1_shot_1_highres.jpg",
+          "wla2A16c7TY_chef1_shot_2_highres.jpg",
+          "wla2A16c7TY_chef1_shot_3_highres.jpg",
+          "wla2A16c7TY_chef1_shot_4_highres.jpg",
+          "wla2A16c7TY_chef1_shot_5_highres.jpg",
+          "wla2A16c7TY_chef1_shot_6_highres.jpg",
+          "wla2A16c7TY_chef1_shot_7_highres.jpg",
+          "wla2A16c7TY_chef1_shot_8_highres.jpg",
+          "wla2A16c7TY_chef1_shot_9_highres.jpg",
+          "wla2A16c7TY_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "김 풍 셰프",
+        "dish_name": "풍짬그마",
+        "ingredients": "트러플 브루스케타 소스, 페페론치노, 체더치즈, 치킨스톡, 맛소금, 파슬리, 두부, 우유, 새우젓, 굴소스, 케이퍼",
+        "steps": [
+          "두부를 1cm 두께로 썰어 낮은 온도의 기름에 넣고, 밀가루를 뿌려가며 건두부처럼 수분을 빼듯이 오래 튀긴다.",
+          "식용유, 으깬 대파, 고춧가루, 페페론치노를 냄비에 넣고 끓여 고추기름을 낸다.",
+          "우유와 체더치즈를 팬에 넣고 끓여 딥소스를 만든다.",
+          "청양고추와 대파를 잘게 썰어 준비한다.",
+          "다른 팬에 짬뽕 양념(고추기름, 다진 대파, 청양고추, 마늘, 생강, 새우젓, 굴소스, 치킨스톡, 설탕)을 넣고 볶는다.",
+          "1차로 튀긴 두부를 길쭉하게 썰어 다시 한번 기름에 튀긴다.",
+          "튀긴 두부 중 일부를 짬뽕 양념에 넣고 볶는다.",
+          "나머지 튀긴 두부에는 맛소금을 뿌려 프라이드 두부를 만든다.",
+          "케이퍼를 기름에 튀긴다.",
+          "접시에 프라이드 두부와 짬뽕 양념 두부를 보기 좋게 담고, 딥소스에 트러플 브루스케타 소스를 섞어 곁들인다. 튀긴 케이퍼와 파슬리로 장식한다."
+        ],
+        "images": [
+          "wla2A16c7TY_chef2_shot_1_highres.jpg",
+          "wla2A16c7TY_chef2_shot_2_highres.jpg",
+          "wla2A16c7TY_chef2_shot_3_highres.jpg",
+          "wla2A16c7TY_chef2_shot_4_highres.jpg",
+          "wla2A16c7TY_chef2_shot_5_highres.jpg",
+          "wla2A16c7TY_chef2_shot_6_highres.jpg",
+          "wla2A16c7TY_chef2_shot_7_highres.jpg",
+          "wla2A16c7TY_chef2_shot_8_highres.jpg",
+          "wla2A16c7TY_chef2_shot_9_highres.jpg",
+          "wla2A16c7TY_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "znjeZC5_bfM",
+    "guest": "호시 & 우지",
+    "theme": "이 조합은 뭐야 어떡해~ 김치 NICE♬",
+    "chefs": [
+      {
+        "chef_name": "파브리 셰프",
+        "dish_name": "김치 뇨끼 좋아요",
+        "ingredients": "구워 먹는 치즈, 깍두기, 동치미 육수, 트러플 감자칩, 트러플오일, 로즈메리, 묵은지, 샴페인, 청경채, 우유",
+        "steps": [
+          "버터와 밀가루를 섞어 루를 만든다.",
+          "루에 동치미 육수를 넣고 끓인다.",
+          "루에 우유를 넣고 끓인다.",
+          "건조된 로즈메리와 설탕을 섞어 호일 그릇에 담고, 냄비 안에 넣어 훈연 준비를 한다.",
+          "깍두기의 물기를 짜서 훈연할 냄비 위에 올린다.",
+          "로즈메리와 설탕에 불을 붙여 깍두기를 훈연한다.",
+          "묵은지의 물기를 짜서 적당한 크기로 썬다.",
+          "트러플 감자칩을 믹서에 부어 갈아 뇨끼 반죽을 만든다.",
+          "썰어놓은 묵은지를 믹서에 넣고 간다.",
+          "잘 갈린 묵은지를 감자칩 가루에 넣고 치대어 뇨끼 반죽을 완성한다.",
+          "뇨끼 반죽을 깍두기 모양으로 잘라 준비한다.",
+          "버터를 두른 팬에 깍두기 모양으로 자른 뇨끼 반죽, 구워 먹는 치즈, 청경채를 굽는다.",
+          "훈연한 깍두기에 트러플 오일을 뿌려 버무린다.",
+          "접시에 뇨끼 소스를 깔고, 구운 뇨끼를 올린 후 구운 치즈와 청경채를 올린다.",
+          "김치 파우더를 뿌려 마무리하고, 샴페인을 곁들여 낸다."
+        ],
+        "images": [
+          "znjeZC5_bfM_chef1_shot_1_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_2_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_3_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_4_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_5_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_6_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_7_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_8_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_9_highres.jpg",
+          "znjeZC5_bfM_chef1_shot_10_highres.jpg"
+        ]
+      },
+      {
+        "chef_name": "김소희 셰프",
+        "dish_name": "김치 마에스트로",
+        "ingredients": "열무김치, 양상추, 삼겹살, 토마토, 수박, 깻잎, 사과",
+        "steps": [
+          "물에 으깬 마늘, 다진 마늘, 다진 생강, 토마토, 사과, 소금을 넣고 끓인다.",
+          "삼겹살의 오도독뼈를 섬세하게 제거한다.",
+          "끓는 물에 삼겹살을 살짝 데친다.",
+          "데친 삼겹살을 잘게 썰어 준비한다.",
+          "수박을 네모나게 썰고 씨를 제거한다.",
+          "마늘, 청양고추, 토마토를 잘게 썰어 올리브오일을 두른 팬에 볶는다.",
+          "볶은 채소에 전분 묻힌 삼겹살을 넣고 볶는다.",
+          "강한 불에 수박을 빠르게 구워 수분을 날린다.",
+          "후추, 올리브오일, 식초, 잘게 썬 깻잎과 마늘을 섞어 드레싱을 만든다.",
+          "접시에 양상추를 깔고 구운 수박을 올린다.",
+          "그 위에 볶은 삼겹살과 채소, 드레싱을 올리고 설탕으로 단맛을 더해 마무리한다."
+        ],
+        "images": [
+          "znjeZC5_bfM_chef2_shot_1_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_2_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_3_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_4_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_5_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_6_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_7_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_8_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_9_highres.jpg",
+          "znjeZC5_bfM_chef2_shot_10_highres.jpg"
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Star, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
 import { RankedChef } from '../../hooks/useRankings';
 import { getChefAvatar } from '../../utils/chefAvatars';
@@ -46,10 +46,16 @@ const UnifiedRankingList = ({ chefs }: UnifiedRankingListProps) => {
                                     alt={chef.name}
                                     className="w-11 h-11 rounded-full object-cover border border-slate-200 flex-shrink-0"
                                 />
-                                <div className="flex flex-col min-w-0">
-                                    <span className="text-base font-bold text-slate-800 truncate">{chef.name}</span>
-                                    <span className="text-xs text-slate-400 font-medium">승률 {chef.seasonWinRate}%</span>
-                                </div>
+                                 <div className="flex flex-col min-w-0">
+                                     <Link
+                                         to={`/chef/${chef.id}`}
+                                         onClick={(e) => e.stopPropagation()}
+                                         className="text-base font-bold text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors truncate"
+                                     >
+                                         {chef.name}
+                                     </Link>
+                                     <span className="text-xs text-slate-400 font-medium">승률 {chef.seasonWinRate}%</span>
+                                 </div>
                             </div>
 
                             {/* RIGHT: Data Graph */}
@@ -101,23 +107,37 @@ const UnifiedRankingList = ({ chefs }: UnifiedRankingListProps) => {
                                                     {match.result === 'win' ? 'WIN' : 'LOSE'}
                                                 </div>
 
-                                                {/* Main Content */}
-                                                <div className="flex-1 px-3 flex flex-col min-w-0">
-                                                    {match.topic && (
-                                                        <span className="text-[11px] text-slate-500 truncate mb-0.5">
-                                                            {match.topic}
-                                                        </span>
-                                                    )}
-                                                    <span className="text-sm font-bold text-slate-800 truncate">
-                                                        {match.recipeName || '레시피 미등록'}
-                                                    </span>
-                                                </div>
+                                                 {/* Main Content */}
+                                                 <div className="flex-1 px-3 flex flex-col min-w-0">
+                                                     {match.topic && (
+                                                         <span className="text-[11px] text-slate-500 truncate mb-0.5">
+                                                             {match.topic}
+                                                         </span>
+                                                     )}
+                                                     {match.recipeId ? (
+                                                         <Link
+                                                             to={`/recipe/${match.recipeId}`}
+                                                             className="text-sm font-bold text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors truncate"
+                                                         >
+                                                             {match.recipeName}
+                                                         </Link>
+                                                     ) : (
+                                                         <span className="text-sm font-bold text-slate-800 truncate">
+                                                             {match.recipeName || '레시피 미등록'}
+                                                         </span>
+                                                     )}
+                                                 </div>
 
-                                                {/* Opponent & Date */}
-                                                <div className="text-right flex flex-col flex-shrink-0">
-                                                    <span className="text-xs font-medium text-slate-600">vs {match.opponentName}</span>
-                                                    <span className="text-[10px] text-slate-400">{match.date}</span>
-                                                </div>
+                                                 {/* Opponent & Date */}
+                                                 <div className="text-right flex flex-col flex-shrink-0">
+                                                     <Link
+                                                         to={`/chef/${match.opponentId}`}
+                                                         className="text-xs font-bold text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors"
+                                                     >
+                                                         vs {match.opponentName}
+                                                     </Link>
+                                                     <span className="text-[10px] text-slate-400">{match.date}</span>
+                                                 </div>
                                             </div>
                                         ))}
                                     </div>

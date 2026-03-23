@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react';
 import { Trophy, ChevronDown, ChevronUp, Star, Percent, Swords } from 'lucide-react';
 import UnifiedRankingList from '../components/ranking/UnifiedRankingList';
-import SeasonToggle from '../components/ranking/SeasonToggle';
-import { useRankings, SeasonFilter, RankedChef } from '../hooks/useRankings';
+import { useRankings, RankedChef } from '../hooks/useRankings';
 
 type SortKey = 'winRate' | 'wins' | 'matches';
 type SortDir = 'asc' | 'desc';
@@ -21,7 +20,7 @@ const SORT_KEY_MAP: Record<SortKey, keyof RankedChef> = {
 
 export default function Rankings() {
     /* ─── Season & Rankings ─── */
-    const [season, setSeason] = useState<SeasonFilter>('2');
+    const season = 'all';
     const { rankings, isLoading: isRankingsLoading } = useRankings(season);
 
     /* ─── Sort State ─── */
@@ -66,7 +65,6 @@ export default function Rankings() {
                     <h2 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-1.5">
                         <Trophy className="w-4 h-4 text-amber-500" /> 상세 순위표
                     </h2>
-                    <SeasonToggle value={season} onChange={setSeason} />
                 </div>
             </div>
 
@@ -74,7 +72,7 @@ export default function Rankings() {
             <div className="flex-1 max-w-2xl mx-auto w-full px-4 py-5">
                 <div className="flex items-center justify-between mb-3">
                     <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">
-                        {season === 'all' ? '역대 전체' : `시즌 ${season}`} · {rankings.length}명
+                        전체 랭킹 · {rankings.length}명
                     </h3>
 
                     {/* ── Sort Controls ── */}

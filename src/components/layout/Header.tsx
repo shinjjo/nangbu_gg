@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Search, MoreVertical, Home as HomeIcon, Trophy } from 'lucide-react';
+import { Search, MoreVertical, Home as HomeIcon, Trophy, Refrigerator } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -65,6 +65,14 @@ const Header = () => {
 								>
 									<Trophy size={18} />
 									팀전
+								</Link>
+								<Link
+									to="/recipes"
+									className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-colors
+                    ${location.pathname === '/recipes' ? 'bg-amber-50 text-amber-600' : 'text-slate-700 hover:bg-slate-50'}`}
+								>
+									<Refrigerator size={18} />
+									내 냉장고로 만들기
 								</Link>
 							</div>
 						)}

@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Trophy, ChevronDown, Calendar, Utensils } from 'lucide-react';
 import RivalryRow from '../components/home/RivalryRow';
 import ChefAvatarGrid from '../components/ChefAvatarGrid';
-import SeasonToggle from '../components/ranking/SeasonToggle';
 import VsFloatingButton from '../components/vs/VsFloatingButton';
-import { useRankings, SeasonFilter } from '../hooks/useRankings';
+import { useRankings } from '../hooks/useRankings';
 import { useHeadToHeadStats } from '../hooks/useHeadToHeadStats';
 import { Chef } from '../types';
 import { getChefAvatar } from '../utils/chefAvatars';
 
 export default function TeamRankings() {
     /* ─── Season & Rankings ─── */
-    const [season, setSeason] = useState<SeasonFilter>('2');
+    const season = 'all';
     const { rankings: allRankings, isLoading: isRankingsLoading } = useRankings(season);
 
     const rankings = allRankings.filter(chef => chef.type === 'team');
@@ -71,7 +71,6 @@ export default function TeamRankings() {
                     <h2 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-1.5">
                         <Trophy className="w-4 h-4 text-amber-500" /> 팀전
                     </h2>
-                    <SeasonToggle value={season} onChange={setSeason} />
                 </div>
             </div>
 
@@ -79,7 +78,7 @@ export default function TeamRankings() {
             <div className="flex-1 max-w-2xl mx-auto w-full px-4 py-5">
                 <div className="flex items-center justify-between mb-3">
                     <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">
-                        {season === 'all' ? '역대 전체' : `시즌 ${season}`} · {rankings.length}개 팀
+                        전체 팀 랭킹 · {rankings.length}개 팀
                     </h3>
                 </div>
 
@@ -179,19 +178,26 @@ export default function TeamRankings() {
                                 ) : !stats || stats.totalMatches === 0 ? (
                                     <div className="text-center text-slate-400 py-6 text-xs">대결 기록이 없습니다.</div>
                                 ) : (
-                                    stats.recentMatches.map((match) => {
-                                        const isLeftWinner = match.winner_id === leftChef?.id;
-                                        const isRightWinner = match.winner_id === rightChef?.id;
-
-                                        return (
-                                            <div key={match.id} className="flex items-center gap-2 px-3 py-2 bg-slate-50 rounded-lg text-xs">
+                                     stats.recentMatches.map((match) => {
+                                         return (
+                                             <div key={match.id} className="flex items-center gap-2 px-3 py-2 bg-slate-50 rounded-lg text-xs">
                                                 <Calendar className="w-3 h-3 text-slate-300 flex-shrink-0" />
                                                 <span className="text-[10px] text-slate-400 flex-shrink-0">{match.episode?.aired_at?.slice(0, 10)}</span>
                                                 {match.topic && <span className="text-[10px] text-slate-500 font-medium truncate">{match.topic}</span>}
                                                 <div className="ml-auto flex items-center gap-1.5 flex-shrink-0">
-                                                    <span className={`font-bold ${isLeftWinner ? 'text-blue-600' : 'text-slate-400'}`}>{leftChef?.name}</span>
-                                                    <span className="text-slate-300 font-bold">vs</span>
-                                                    <span className={`font-bold ${isRightWinner ? 'text-red-500' : 'text-slate-400'}`}>{rightChef?.name}</span>
+                                                     <Link
+                                                         to={`/chef/${leftChef?.id}`}
+                                                         className={`font-bold text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors`}
+                                                     >
+                                                         {leftChef?.name}
+                                                     </Link>
+                                                     <span className="text-slate-300 font-bold">vs</span>
+                                                     <Link
+                                                         to={`/chef/${rightChef?.id}`}
+                                                         className={`font-bold text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors`}
+                                                     >
+                                                         {rightChef?.name}
+                                                     </Link>
                                                 </div>
                                             </div>
                                         );

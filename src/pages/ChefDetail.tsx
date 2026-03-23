@@ -1,11 +1,12 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { Star, Trophy, TrendingUp, Users, ChevronLeft } from 'lucide-react';
+import { Star, Trophy, ChefHat, Users, ChevronLeft, Eye, EyeOff, Lock } from 'lucide-react';
 import { supabase } from '../supabase';
 import { Chef } from '../types';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { getChefAvatar } from '../utils/chefAvatars';
+import recipesData from '../data/recipes.json';
 
 /* ──────────────────────────── Types ──────────────────────────── */
 
@@ -33,7 +34,8 @@ interface OpponentRecord {
     winRate: number;
 }
 
-type Tab = 'history' | 'headtohead' | 'season';
+type Tab = 'history' | 'headtohead' | 'recipes';
+
 
 /* ──────────────────────────── Component ──────────────────────────── */
 
@@ -41,6 +43,7 @@ const ChefDetail = () => {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState<Tab>('history');
+    const [showResults, setShowResults] = useState(false);
 
     /* ── Fetch Chef ── */
     const { data: chef, isLoading: chefLoading } = useQuery({
@@ -126,26 +129,38 @@ const ChefDetail = () => {
         .filter((o) => o.total >= 3)
         .sort((a, b) => a.winRate - b.winRate)[0] || null;
 
-    /* ── Season breakdown (using episode.season) ── */
-    const seasonMap = new Map<string, { wins: number; losses: number; matches: number }>();
-    matches.forEach((m) => {
-        if (!m.winner_id) return;
-        const seasonLabel = m.episode?.season ? `시즌 ${m.episode.season}` : 'Unknown';
-        if (!seasonMap.has(seasonLabel)) seasonMap.set(seasonLabel, { wins: 0, losses: 0, matches: 0 });
-        const s = seasonMap.get(seasonLabel)!;
-        s.matches++;
-        if (m.winner_id === id) s.wins++;
-        else s.losses++;
-    });
-    const seasons = Array.from(seasonMap.entries())
-        .map(([year, stats]) => ({ year, ...stats, winRate: Math.round((stats.wins / stats.matches) * 100) }))
-        .sort((a, b) => b.year.localeCompare(a.year));
+    /* ── Recipes logic (Derive from Supabase matches) ── */
+    const chefRecipes = useMemo(() => {
+        if (!chef || !matches) return [];
+        const results: any[] = [];
+        
+        matches.forEach(m => {
+            const myRecipe = m.recipes?.find(r => r.chef_id === id);
+            if (myRecipe) {
+                // Find matching JSON entry for theme/guest/thumbnail if needed
+                // But we can get theme/guest from the match object itself
+                const matchingJson = (recipesData as any[]).find(rj => rj.id === (m as any).id || rj.id === m.episode_id);
+                const jsonChef = matchingJson?.chefs?.find((c: any) => 
+                    c.chef_name.replace(/\s*셰프\s*$/, '').trim().toLowerCase() === chef.name.replace(/\s*셰프\s*$/, '').trim().toLowerCase()
+                );
+
+                results.push({
+                    id: myRecipe.id, // Supabase Recipe UUID
+                    guest: m.guest?.name || matchingJson?.guest,
+                    theme: m.topic || matchingJson?.theme,
+                    dishName: myRecipe.name,
+                    thumbnail: jsonChef?.images?.[0] || null
+                });
+            }
+        });
+        return results;
+    }, [chef, matches, id]);
 
     /* ── Tab definitions ── */
     const tabs: { key: Tab; label: string; icon: typeof Trophy }[] = [
         { key: 'history', label: '매치 히스토리', icon: Trophy },
         { key: 'headtohead', label: '상대 전적', icon: Users },
-        { key: 'season', label: '시즌 분석', icon: TrendingUp },
+        { key: 'recipes', label: '레시피 리스트', icon: ChefHat },
     ];
 
     if (isLoading) {
@@ -162,14 +177,16 @@ const ChefDetail = () => {
 
     return (
         <div className="max-w-2xl mx-auto pb-20">
-            {/* ── Back Button ── */}
-            <button
-                onClick={() => navigate(-1)}
-                className="flex items-center gap-1 text-sm text-slate-500 hover:text-slate-800 transition-colors mb-4 mt-2"
-            >
-                <ChevronLeft className="w-4 h-4" />
-                돌아가기
-            </button>
+            {/* ── Top Navigation ── */}
+            <div className="mb-4 mt-2">
+                <button
+                    onClick={() => navigate(-1)}
+                    className="flex items-center gap-1 text-sm text-slate-500 hover:text-slate-800 transition-colors"
+                >
+                    <ChevronLeft className="w-4 h-4" />
+                    돌아가기
+                </button>
+            </div>
 
             {/* ── Hero Header ── */}
             <div className="bg-white rounded-xl border border-slate-200 p-6 mb-4">
@@ -179,10 +196,21 @@ const ChefDetail = () => {
                         alt={chef.name}
                         className="w-20 h-20 rounded-full border-2 border-slate-200 object-cover"
                     />
-                    <div className="flex-1">
-                        <h1 className="text-2xl font-black text-slate-900">{chef.name}</h1>
-                        {chef.bio && (
-                            <p className="text-sm text-slate-500 font-medium mt-0.5">{chef.bio}</p>
+                    <div className="flex-1 flex items-start justify-between gap-2">
+                        <div>
+                            <h1 className="text-2xl font-black text-slate-900">{chef.name}</h1>
+                            {chef.bio && (
+                                <p className="text-sm text-slate-500 font-medium mt-0.5">{chef.bio}</p>
+                            )}
+                        </div>
+                        {activeTab === 'history' && (
+                            <button
+                                onClick={() => setShowResults(!showResults)}
+                                className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-full transition-colors active:scale-95 text-[10px] sm:text-xs font-bold flex-shrink-0"
+                            >
+                                {showResults ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                                {showResults ? '결과 숨기기' : '결과 보기'}
+                            </button>
                         )}
                     </div>
                 </div>
@@ -246,31 +274,61 @@ const ChefDetail = () => {
                                     const myRecipe = m.recipes?.find(r => r.chef_id === id) || null;
                                     return (
                                         <div key={m.id} className="grid grid-cols-[72px_56px_1fr_52px] md:grid-cols-[100px_120px_1fr_60px] items-center px-4 py-3 gap-2 md:gap-3">
-                                            {/* Column 1: Date & Guest */}
-                                            <div className="flex flex-col min-w-0">
-                                                <span className="text-[10px] sm:text-xs font-medium text-slate-400">
-                                                    {m.episode?.aired_at?.slice(0, 10)}
-                                                </span>
-                                                {m.guest?.name && (
-                                                    <span className="text-[11px] font-bold text-slate-600 truncate mt-0.5">
-                                                        {m.guest.name} 편
+                                            {/* Column 1: Date & Guest (Link to MatchDetail) */}
+                                            {m.id ? (
+                                                <Link 
+                                                    to={`/match/${m.id}`}
+                                                    className="flex flex-col min-w-0 group/match"
+                                                >
+                                                    <span className="text-[10px] sm:text-xs font-medium text-slate-400 group-hover/match:text-blue-500 transition-colors">
+                                                        {m.episode?.aired_at?.slice(0, 10)}
                                                     </span>
-                                                )}
-                                            </div>
+                                                    {m.guest?.name && (
+                                                        <span className="text-[11px] font-black text-blue-600 group-hover:text-blue-800 group-hover:underline decoration-blue-300 underline-offset-2 mt-0.5 truncate">
+                                                            {m.guest.name} 편
+                                                        </span>
+                                                    )}
+                                                </Link>
+                                            ) : (
+                                                <div className="flex flex-col min-w-0">
+                                                    <span className="text-[10px] sm:text-xs font-medium text-slate-400">
+                                                        {m.episode?.aired_at?.slice(0, 10)}
+                                                    </span>
+                                                    {m.guest?.name && (
+                                                        <span className="text-[11px] font-bold text-slate-600 truncate mt-0.5">
+                                                            {m.guest.name} 편
+                                                        </span>
+                                                    )}
+                                                </div>
+                                            )}
 
                                             {/* Column 2: Opponent (Vs) */}
                                             <div className="flex flex-col min-w-0">
                                                 <span className="text-[10px] text-slate-400 font-medium">vs</span>
-                                                <span className="text-xs sm:text-sm md:text-base font-black text-slate-800 line-clamp-2 leading-snug">
-                                                    {opponent?.name || '상대'}
-                                                </span>
+                                                 <Link
+                                                     to={`/chef/${isChef1 ? m.chef_2_id : m.chef_1_id}`}
+                                                     className="text-xs sm:text-sm md:text-base font-black text-slate-800 hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors line-clamp-2 leading-snug"
+                                                 >
+                                                     {opponent?.name || '상대'}
+                                                 </Link>
                                             </div>
 
                                             {/* Column 3: Recipe & Topic */}
                                             <div className="flex flex-col min-w-0 border-l border-slate-100 pl-3">
-                                                <span className="text-xs sm:text-sm font-bold text-slate-700 line-clamp-2 leading-snug">
-                                                    {myRecipe?.name || '레시피 미등록'}
-                                                </span>
+                                                {myRecipe ? (
+                                                    <Link
+                                                        to={`/recipe/${myRecipe.id}`}
+                                                        className="flex items-center gap-1 group"
+                                                    >
+                                                        <span className="text-xs sm:text-sm font-black text-blue-600 group-hover:text-blue-800 underline decoration-blue-200 underline-offset-4 decoration-1 transition-colors line-clamp-2 leading-snug">
+                                                            {myRecipe.name}
+                                                        </span>
+                                                    </Link>
+                                                ) : (
+                                                    <span className="text-xs sm:text-sm font-bold text-slate-700 line-clamp-2 leading-snug">
+                                                        레시피 미등록
+                                                    </span>
+                                                )}
                                                 {m.topic && (
                                                     <span className="text-[11px] text-slate-500 truncate mt-0.5">{m.topic}</span>
                                                 )}
@@ -278,9 +336,15 @@ const ChefDetail = () => {
 
                                             {/* Column 4: Outcome */}
                                             <div className="flex justify-end flex-shrink-0">
-                                                <div className={`w-11 sm:w-14 text-center text-[10px] sm:text-xs font-bold py-1.5 rounded ${isWin ? 'bg-amber-100 text-amber-700' : 'bg-slate-100 text-slate-500'}`}>
-                                                    {isWin ? '승리' : '패배'}
-                                                </div>
+                                                {showResults ? (
+                                                    <div className={`w-11 sm:w-14 text-center text-[10px] sm:text-xs font-bold py-1.5 rounded ${isWin ? 'bg-amber-100 text-amber-700' : 'bg-slate-100 text-slate-500'}`}>
+                                                        {isWin ? '승리' : '패배'}
+                                                    </div>
+                                                ) : (
+                                                    <div className="w-11 sm:w-14 text-center text-[10px] sm:text-xs font-bold py-1.5 rounded bg-slate-200 text-slate-400 blur-[3px] select-none opacity-70">
+                                                        결과
+                                                    </div>
+                                                )}
                                             </div>
                                         </div>
                                     );
@@ -300,9 +364,11 @@ const ChefDetail = () => {
                                         <div className="text-2xl mb-1">🔥</div>
                                         <div className="text-[11px] font-black text-purple-600 leading-tight">영혼의 라이벌</div>
                                         <div className="text-[9px] text-slate-400 font-medium mb-2">최다 매치 상대</div>
-                                        <img src={soulmate.imageUrl} alt={soulmate.name} className="w-10 h-10 rounded-full object-cover border-2 border-purple-200 mx-auto mb-1" />
-                                        <div className="text-xs font-bold text-slate-800 truncate">{soulmate.name}</div>
-                                        <div className="text-[10px] text-purple-500 font-bold">{soulmate.total}전 {soulmate.wins}승 {soulmate.losses}패</div>
+                                         <Link to={`/chef/${soulmate.id}`} className="group/link block">
+                                             <img src={soulmate.imageUrl} alt={soulmate.name} className="w-10 h-10 rounded-full object-cover border-2 border-purple-200 mx-auto mb-1 group-hover/link:border-purple-400 transition-colors" />
+                                             <div className="text-xs font-bold text-slate-800 truncate underline decoration-slate-200 underline-offset-4 decoration-1 group-hover/link:text-slate-900 transition-colors">{soulmate.name}</div>
+                                         </Link>
+                                         <div className="text-[10px] text-purple-500 font-bold">{soulmate.total}전 {soulmate.wins}승 {soulmate.losses}패</div>
                                     </div>
                                 )}
                                 {wallet && (
@@ -310,9 +376,11 @@ const ChefDetail = () => {
                                         <div className="text-2xl mb-1">💰</div>
                                         <div className="text-[11px] font-black text-emerald-600 leading-tight">승점 자판기</div>
                                         <div className="text-[9px] text-slate-400 font-medium mb-2">최고 승률 상대</div>
-                                        <img src={wallet.imageUrl} alt={wallet.name} className="w-10 h-10 rounded-full object-cover border-2 border-emerald-200 mx-auto mb-1" />
-                                        <div className="text-xs font-bold text-slate-800 truncate">{wallet.name}</div>
-                                        <div className="text-[10px] text-emerald-500 font-bold">{wallet.winRate}% 승률 ({wallet.wins}승 {wallet.losses}패)</div>
+                                         <Link to={`/chef/${wallet.id}`} className="group/link block">
+                                             <img src={wallet.imageUrl} alt={wallet.name} className="w-10 h-10 rounded-full object-cover border-2 border-emerald-200 mx-auto mb-1 group-hover/link:border-emerald-400 transition-colors" />
+                                             <div className="text-xs font-bold text-slate-800 truncate underline decoration-slate-200 underline-offset-4 decoration-1 group-hover/link:text-slate-900 transition-colors">{wallet.name}</div>
+                                         </Link>
+                                         <div className="text-[10px] text-emerald-500 font-bold">{wallet.winRate}% 승률 ({wallet.wins}승 {wallet.losses}패)</div>
                                     </div>
                                 )}
                                 {wall && (
@@ -320,9 +388,11 @@ const ChefDetail = () => {
                                         <div className="text-2xl mb-1">🧱</div>
                                         <div className="text-[11px] font-black text-red-500 leading-tight">통곡의 벽</div>
                                         <div className="text-[9px] text-slate-400 font-medium mb-2">최저 승률 상대</div>
-                                        <img src={wall.imageUrl} alt={wall.name} className="w-10 h-10 rounded-full object-cover border-2 border-red-200 mx-auto mb-1" />
-                                        <div className="text-xs font-bold text-slate-800 truncate">{wall.name}</div>
-                                        <div className="text-[10px] text-red-400 font-bold">{wall.winRate}% 승률 ({wall.wins}승 {wall.losses}패)</div>
+                                         <Link to={`/chef/${wall.id}`} className="group/link block">
+                                             <img src={wall.imageUrl} alt={wall.name} className="w-10 h-10 rounded-full object-cover border-2 border-red-200 mx-auto mb-1 group-hover/link:border-red-400 transition-colors" />
+                                             <div className="text-xs font-bold text-slate-800 truncate underline decoration-slate-200 underline-offset-4 decoration-1 group-hover/link:text-slate-900 transition-colors">{wall.name}</div>
+                                         </Link>
+                                         <div className="text-[10px] text-red-400 font-bold">{wall.winRate}% 승률 ({wall.wins}승 {wall.losses}패)</div>
                                     </div>
                                 )}
                             </div>
@@ -333,10 +403,10 @@ const ChefDetail = () => {
                             {opponents.map((opp) => (
                                 <div key={opp.id} className="flex items-center py-3 gap-3">
                                     <img src={opp.imageUrl} alt={opp.name} className="w-9 h-9 rounded-full object-cover border border-slate-200 flex-shrink-0" />
-                                    <div className="flex-1 min-w-0">
-                                        <span className="text-sm font-bold text-slate-800 block truncate">{opp.name}</span>
-                                        <span className="text-xs text-slate-400">{opp.total}전</span>
-                                    </div>
+                                     <Link to={`/chef/${opp.id}`} className="flex-1 min-w-0 group/opp">
+                                         <span className="text-sm font-bold text-slate-800 block truncate underline decoration-slate-200 underline-offset-4 decoration-1 group-hover/opp:text-slate-900 transition-colors">{opp.name}</span>
+                                         <span className="text-xs text-slate-400">{opp.total}전</span>
+                                     </Link>
                                     <div className="flex items-center gap-2 flex-shrink-0">
                                         <span className="text-sm font-bold text-amber-600">{opp.wins}승</span>
                                         <span className="text-sm font-bold text-slate-400">{opp.losses}패</span>
@@ -353,34 +423,49 @@ const ChefDetail = () => {
                     </div>
                 )}
 
-                {/* ── Tab 3: Season Stats ── */}
-                {activeTab === 'season' && (
-                    <div className="p-4">
-                        {seasons.length === 0 ? (
-                            <p className="text-center text-slate-400 py-10 text-sm">시즌 데이터가 없습니다.</p>
+                {/* ── Tab 3: Recipes ── */}
+                {activeTab === 'recipes' && (
+                    <div className="divide-y divide-slate-100">
+                        {chefRecipes.length === 0 ? (
+                            <p className="text-center text-slate-400 py-10 text-sm">등록된 레시피가 없습니다.</p>
                         ) : (
-                            <div className="space-y-3">
-                                {seasons.map((s) => (
-                                    <div key={s.year} className="flex items-center gap-4">
-                                        <span className="text-sm font-bold text-slate-700 w-16 flex-shrink-0">{s.year}</span>
-                                        <div className="flex-1">
-                                            <div className="flex items-center justify-between mb-1">
-                                                <span className="text-xs text-slate-500">
-                                                    <span className="font-bold text-amber-600">{s.wins}승</span>
-                                                    {' '}<span className="text-slate-400">{s.losses}패</span>
-                                                </span>
-                                                <span className="text-xs font-bold text-slate-600">{s.winRate}%</span>
-                                            </div>
-                                            <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
-                                                <div
-                                                    className="h-full bg-amber-400 rounded-full transition-all duration-500"
-                                                    style={{ width: `${s.winRate}%` }}
-                                                />
-                                            </div>
+                            chefRecipes.map((recipe) => (
+                                <Link
+                                    key={recipe.id}
+                                    to={`/recipe/${recipe.id}`}
+                                    className="flex items-center gap-4 p-4 hover:bg-slate-50 transition-colors group"
+                                >
+                                    {/* Thumbnail */}
+                                    <div className="w-16 h-16 rounded-lg overflow-hidden bg-slate-100 flex-shrink-0 border border-slate-100">
+                                        {recipe.thumbnail ? (
+                                            <img
+                                                src={`/recipe_images/${recipe.thumbnail}`}
+                                                alt={recipe.dishName}
+                                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full flex items-center justify-center text-2xl">🍳</div>
+                                        )}
+                                    </div>
+
+                                    {/* Info */}
+                                    <div className="flex-1 min-w-0">
+                                        <div className="flex items-center gap-2 mb-1">
+                                            <h3 className="text-sm sm:text-base font-black text-slate-800 group-hover:text-slate-900 underline decoration-slate-200 underline-offset-4 decoration-1 transition-colors truncate">
+                                                {recipe.dishName}
+                                            </h3>
+                                        </div>
+                                        <div className="flex flex-col gap-0.5">
+                                            <p className="text-[11px] sm:text-xs text-slate-500 truncate">
+                                                <span className="font-bold text-slate-700">{recipe.guest}</span> 편
+                                            </p>
+                                            <p className="text-[10px] sm:text-[11px] text-slate-400 truncate italic">
+                                                {recipe.theme}
+                                            </p>
                                         </div>
                                     </div>
-                                ))}
-                            </div>
+                                </Link>
+                            ))
                         )}
                     </div>
                 )}
