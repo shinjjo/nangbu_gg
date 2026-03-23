@@ -1,7 +1,8 @@
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useFridge, parseIngredients } from '../hooks/useFridge';
 import recipesData from '../data/recipes.json';
+import { supabase } from '../supabase';
 
 function matchBadgeColor(pct: number) {
   if (pct === 100) return 'bg-emerald-500 text-white';
@@ -19,6 +20,16 @@ function matchLabel(pct: number) {
 
 export default function RecipeList() {
   const { matchPct, size: fridgeSize, items, toggle, clear } = useFridge();
+  const [dbRecipes, setDbRecipes] = useState<any[]>([]);
+
+  useEffect(() => {
+    supabase
+      .from('recipes')
+      .select('id, name, chef:chefs!chef_id(name)')
+      .then(({ data }) => {
+        if (data) setDbRecipes(data);
+      });
+  }, []);
 
   const handleAdd = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -48,8 +59,21 @@ export default function RecipeList() {
       recipe.chefs.forEach((chef: any, i: number) => {
         const ingredients = parseIngredients(chef.ingredients || '');
         const pct = matchPct(ingredients);
+        
+        // Match with supabase recipe by name and chef name
+        const normalizeText = (text: string) => text.replace(/[^가-힣a-zA-Z0-9]/g, '');
+        const normalizedJsonName = normalizeText(chef.dish_name);
+
+        const matchedDbRecipe = dbRecipes.find((dr: any) => {
+          const drName = dr.name ? normalizeText(dr.name) : '';
+          const isNameMatch = drName.includes(normalizedJsonName) || normalizedJsonName.includes(drName) || (normalizedJsonName === 'O팸메일' && drName === '스팸메일');
+          const isChefMatch = dr.chef?.name?.replace(/\\s*셰프\\s*$/, '').trim().toLowerCase() === chef.chef_name.replace(/\\s*셰프\\s*$/, '').trim().toLowerCase();
+          
+          return isChefMatch && isNameMatch;
+        });
+
         result.push({
-          recipeId: recipe.id,
+          recipeId: matchedDbRecipe ? matchedDbRecipe.id : recipe.id,
           chefIndex: i,
           chefName: chef.chef_name,
           dishName: chef.dish_name,
@@ -62,7 +86,7 @@ export default function RecipeList() {
       });
     }
     return result;
-  }, [matchPct]);
+  }, [matchPct, dbRecipes]);
 
   // Sort: highest pct first, then alphabetical
   const sorted = useMemo(
@@ -105,7 +129,7 @@ export default function RecipeList() {
               <button
                 key={item}
                 onClick={() => toggle(item)}
-                className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:border-red-200 hover:bg-red-50 hover:text-red-600 transition-all group"
+                className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-slate-200 rounded-xl text-xs font-bold text-slate-700 hover:border-red-200 hover:bg-red-50 hover:text-red-600 transition-all group animate-in zoom-in fade-in slide-in-from-bottom-2 duration-300"
               >
                 {item}
                 <span className="text-slate-300 group-hover:text-red-400">×</span>
@@ -143,8 +167,8 @@ export default function RecipeList() {
       <div className="space-y-3">
         {sorted.map((card) => (
           <Link
-            key={`${card.recipeId}-${card.chefIndex}`}
-            to={`/recipe/${card.recipeId}?chefIdx=${card.chefIndex}`}
+            key={card.recipeId}
+            to={`/recipe/${card.recipeId}${card.recipeId.includes('-') ? '' : `?chefIdx=${card.chefIndex}`}`}
             className="flex items-center gap-4 bg-white rounded-2xl border border-slate-200 p-3 shadow-sm hover:border-emerald-300 hover:shadow-md transition-all group"
           >
             {/* Thumbnail */}
